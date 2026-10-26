@@ -1,0 +1,102 @@
+{
+  "subject": "Science",
+  "grade_level": 4,
+  "topic": "Physical Science",
+  "concept": "States of Matter: Solid, Liquid, and Gas",
+  "keywords": ["states of matter", "solid", "liquid", "gas", "ice", "water", "steam", "molecules", "cbse grade 4", "cbse grade 5"],
+  "standard_explanation": "Matter exists in three primary physical states determined by intermolecular forces and thermal kinetic energy. Solids maintain a fixed volume and rigid shape because constituent particles are tightly packed. Liquids possess a definite volume but conform to container shapes as particles slide past one another. Gases have neither fixed shape nor volume, expanding freely as high-energy particles move rapidly.",
+  "simplified_explanation": "Everything around us is matter! Ice is a solid—it is hard and holds its shape. When ice warms up, it melts into water, which is a liquid you can pour. When water gets very hot, it bubbles into steam, which is an invisible gas floating in the air!",
+  "key_points": [
+    "Solid: Holds its own shape (like an ice cube, pencil, or rock).",
+    "Liquid: Flows and takes the shape of its cup (like water, milk, or juice).",
+    "Gas: Floats freely all around us (like air, steam, or helium in a balloon).",
+    "Heat can change a solid into a liquid, and a liquid into a gas."
+  ],
+  "examples": [
+    "An ice pop straight from the freezer is a solid.",
+    "Melting ice pop dripping on your hand becomes a liquid.",
+    "Steam rising from hot soup into the air is a gas."
+  ],
+  "misconceptions": [
+    "Misconception: Gases are not real matter because you often cannot see them. Fact: Air is real gas matter with mass that fills balloons.",
+    "Misconception: When ice melts, the water disappears. Fact: The solid ice simply changes state into liquid water."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Solid Ice Cube",
+      "description": "A crisp, shiny blue ice cube sits firmly on a plate, keeping its solid box shape.",
+      "visual_elements": ["ice_cube", "plate", "solid_structure"],
+      "animation_action": "matter_solid_ice",
+      "caption": "Step 1: Solid! Ice is hard, cold, and holds its own rigid shape.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Liquid Melting Water",
+      "description": "Warm sunlight melts the ice cube into clear blue liquid that flows across the plate.",
+      "visual_elements": ["sun_warmth", "melting_droplets", "flowing_water"],
+      "animation_action": "matter_liquid_water",
+      "caption": "Step 2: Liquid! Warmth melts ice into water that pours and splashes freely.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Gas Rising Steam",
+      "description": "Water heats in a pot and turns into light, dancing steam vapors rising into the air.",
+      "visual_elements": ["boiling_pot", "rising_vapor", "dancing_molecules"],
+      "animation_action": "matter_gas_steam",
+      "caption": "Step 3: Gas! Heated water turns into steam that floats freely into the air.",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Solid",
+      "gloss": "HARD / SOLID",
+      "description": "Dominant bent knuckles tap firmly twice against palm of non-dominant hand.",
+      "handshape": "Bent knuckles to flat palm",
+      "movement": "Firm downward tapping motion",
+      "asset_placeholder": "sign_solid.svg"
+    },
+    {
+      "term": "Liquid / Water",
+      "gloss": "WATER-DRINK",
+      "description": "W-handshape index, middle, ring fingers tap gently against bottom lip twice.",
+      "handshape": "W handshape",
+      "movement": "Double tap on lower lip",
+      "asset_placeholder": "sign_liquid.svg"
+    },
+    {
+      "term": "Gas / Steam",
+      "gloss": "STEAM-FLOAT-UP",
+      "description": "Both hands flutter wiggle fingers upward into the air showing rising gas.",
+      "handshape": "Loose 5 handshapes wiggling",
+      "movement": "Upward undulating wavy drift",
+      "asset_placeholder": "sign_gas.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "matter_q1",
+      "concept": "States of Matter: Solid, Liquid, and Gas",
+      "question": "What happens to a solid ice cube when it gets warm?",
+      "expected_answer": "It melts into liquid water",
+      "options": [
+        "It melts into liquid water",
+        "It turns into hard stone",
+        "It catches on fire",
+        "It becomes heavy iron"
+      ],
+      "hint": "Think about what happens to an ice cube left out on a warm day."
+    },
+    {
+      "question_id": "matter_q2",
+      "concept": "States of Matter: Solid, Liquid, and Gas",
+      "question": "Which state of matter floats freely all around us in the air?",
+      "expected_answer": "Gas",
+      "options": ["Gas", "Solid", "Brick", "Wood"],
+      "hint": "We breathe it in with every breath."
+    }
+  ]
+}

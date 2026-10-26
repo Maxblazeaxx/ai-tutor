@@ -1,0 +1,107 @@
+{
+  "subject": "Science",
+  "grade_level": 4,
+  "topic": "Astronomy",
+  "concept": "Solar System",
+  "keywords": ["solar system", "sun", "earth", "planets", "orbit", "moon", "star", "space", "gravity"],
+  "standard_explanation": "The solar system consists of our central star, the Sun, and all celestial bodies bound to it by gravitational attraction. This includes eight major planets—Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune—along with dwarf planets, moons, asteroids, and comets. The inner planets are dense and rocky, whereas the outer planets are massive gas and ice giants. Earth is the third planet from the Sun and is situated in the habitable zone, allowing liquid water and life to flourish.",
+  "simplified_explanation": "Our solar system is a big space family. The giant, glowing Sun is in the center. Eight planets travel in smooth round tracks called orbits around the Sun. We live on Earth, the beautiful blue planet with water and green trees. The Moon travels around Earth, lighting up our night sky.",
+  "key_points": [
+    "The giant Sun sits in the center of the solar system.",
+    "Eight planets circle around the Sun in curved paths called orbits.",
+    "Earth is our home planet, the 3rd planet from the Sun.",
+    "Earth has liquid water, air, and life.",
+    "The Moon is Earth's close friend that circles around us at night."
+  ],
+  "examples": [
+    "Spinning a ball on a string in a circle mimics how Earth's orbit is held by the Sun's gravity.",
+    "Looking through a telescope to see Jupiter's giant red spot and Saturn's bright rings."
+  ],
+  "misconceptions": [
+    "Misconception: The Sun revolves around Earth. Fact: Earth and other planets revolve around the Sun.",
+    "Misconception: The Moon produces its own light. Fact: The Moon reflects light shining from the Sun."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "The Sun at the Center",
+      "description": "A massive, swirling golden Sun radiates warmth and light in the dark starry sky.",
+      "visual_elements": ["glowing_sun", "stars", "nebula"],
+      "animation_action": "sun_center",
+      "caption": "Step 1: The giant Sun shines at the center of our space family.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Earth Orbiting the Sun",
+      "description": "Our beautiful blue and green Earth travels smoothly along an oval orbit path around the glowing Sun.",
+      "visual_elements": ["sun", "orbit_ring", "blue_earth"],
+      "animation_action": "planet_orbit",
+      "caption": "Step 2: Earth travels in a circle (orbit) around the Sun.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "The Moon Circling Earth",
+      "description": "A pale silver Moon orbits close around Earth as both travel through space.",
+      "visual_elements": ["earth", "moon", "night_sky"],
+      "animation_action": "moon_orbit",
+      "caption": "Step 3: The Moon circles around Earth, shining gently at night.",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Sun",
+      "gloss": "SUN-CIRCLE",
+      "description": "Dominant index finger draws a circle in the sky, then fingers expand outward with shining rays.",
+      "handshape": "Index finger then open 5",
+      "movement": "Circle in air then radiating rays",
+      "asset_placeholder": "sign_sun.svg"
+    },
+    {
+      "term": "Earth",
+      "gloss": "EARTH / WORLD",
+      "description": "Curved hands circle around each other simulating a rotating planetary sphere.",
+      "handshape": "Loose claw hands / S-hands circling",
+      "movement": "Orbital rotation at chest height",
+      "asset_placeholder": "sign_earth.svg"
+    },
+    {
+      "term": "Moon",
+      "gloss": "MOON / CRESCENT",
+      "description": "Index finger and thumb form a C-crescent near the right eye looking upward.",
+      "handshape": "C-handshape",
+      "movement": "Hold at temple near eye",
+      "asset_placeholder": "sign_moon.svg"
+    },
+    {
+      "term": "Orbit",
+      "gloss": "PLANET ORBIT",
+      "description": "Non-dominant fist stands as the Sun; dominant index finger traces a wide circular revolution around it.",
+      "handshape": "Index finger around closed fist",
+      "movement": "Smooth 360-degree horizontal loop",
+      "asset_placeholder": "sign_orbit.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "solar_q1",
+      "concept": "Solar System",
+      "question": "Which planet do we live on?",
+      "expected_answer": "Earth",
+      "options": ["Earth", "Mars", "Jupiter", "Sun"],
+      "hint": "The blue planet with oceans, trees, and air.",
+      "visual_cue": "blue_earth"
+    },
+    {
+      "question_id": "solar_q2",
+      "concept": "Solar System",
+      "question": "What is at the center of our solar system?",
+      "expected_answer": "Sun",
+      "options": ["Sun", "Moon", "Comet", "Earth"],
+      "hint": "The giant, bright star that gives us daylight.",
+      "visual_cue": "bright_sun"
+    }
+  ]
+}

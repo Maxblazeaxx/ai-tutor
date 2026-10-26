@@ -1,0 +1,101 @@
+{
+  "subject": "Chemistry",
+  "grade_level": 10,
+  "topic": "Chemical Substances",
+  "concept": "Chemical Reactions and Equations (CBSE Grade 10)",
+  "keywords": ["chemical reaction", "reactants", "products", "conservation of mass", "balancing equations", "exothermic", "cbse grade 10", "chemistry"],
+  "standard_explanation": "A chemical reaction involves the breaking of chemical bonds in reactant molecules and the formation of novel bonds to synthesize products with distinct physicochemical properties. According to the Law of Conservation of Mass, matter is neither created nor destroyed; hence, chemical equations must be stoichiometrically balanced so the number of atoms of each element remains identical on both sides: 2H₂ + O₂ → 2H₂O.",
+  "simplified_explanation": "Chemical reactions are like baking a delicious cake! You mix eggs, flour, and sugar (Reactants). When they bake in the warm oven, they transform into a brand new, yummy cake (Product)! No ingredients vanish into thin air; they just combine in a wonderful new way!",
+  "key_points": [
+    "Reactants are the starting substances on the left side of the arrow.",
+    "Products are the brand new substances formed on the right side.",
+    "Law of Conservation of Mass: Atoms are never destroyed; they are just rearranged.",
+    "Signs of a reaction: color change, bubbles of gas, heat released, or solid precipitate."
+  ],
+  "examples": [
+    "Rust forming when iron nails are exposed to moist air: 4Fe + 3O₂ → 2Fe₂O₃.",
+    "Hydrogen gas burning with oxygen to form clean pure water: 2H₂ + O₂ → 2H₂O."
+  ],
+  "misconceptions": [
+    "Misconception: When wood burns into ash, mass disappears. Fact: The missing mass escaped as invisible carbon dioxide gas and water vapor into the air.",
+    "Misconception: Balancing equations changes the chemical formula. Fact: You can only adjust coefficients in front of formulas, never the subscripts."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Reactants Ready in Beakers",
+      "description": "Two separate glass beakers holding pure colorless liquids labeled Hydrogen and Oxygen molecules.",
+      "visual_elements": ["beaker_hydrogen", "beaker_oxygen", "reactants_label"],
+      "animation_action": "chem_reactants_ready",
+      "caption": "Step 1: Reactants! The starting chemical ingredients sit ready to combine.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Bonds Break & Atom Rearrangement",
+      "description": "A sparkling spark ignites; atoms separate and dance into new molecular partnerships.",
+      "visual_elements": ["chemical_spark", "dancing_atoms", "rearranging_bonds"],
+      "animation_action": "chem_bonds_rearrange",
+      "caption": "Step 2: Reaction in action! Chemical bonds break and atoms rearrange in a flash!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Balanced Product Formed (Water H₂O)",
+      "description": "Pure sparkling water molecules H₂O settle peacefully with a balanced equation 2H₂ + O₂ → 2H₂O.",
+      "visual_elements": ["water_molecules", "balanced_equation", "conservation_scales"],
+      "animation_action": "chem_product_water",
+      "caption": "Step 3: New Product Formed! 2H₂ + O₂ → 2H₂O! Mass is perfectly conserved!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Chemical / Reaction",
+      "gloss": "CHEMISTRY-MIX",
+      "description": "Both C-handshapes alternate circular pouring motions as if mixing test tubes in a laboratory.",
+      "handshape": "C-handshapes alternating",
+      "movement": "Circular inward pouring rotation",
+      "asset_placeholder": "sign_chemistry.svg"
+    },
+    {
+      "term": "Change / Transform",
+      "gloss": "CHANGE",
+      "description": "Both A/X-fists touching wrists twist 180 degrees to reverse positions, indicating transformation.",
+      "handshape": "Fists touching at wrists",
+      "movement": "Quick 180-degree rotational twist",
+      "asset_placeholder": "sign_change.svg"
+    },
+    {
+      "term": "Equal / Balanced",
+      "gloss": "EQUAL-BALANCE",
+      "description": "Both bent hands fingertips touch together horizontally indicating balance and equality.",
+      "handshape": "Bent flat hands touching fingertips",
+      "movement": "Touch fingertips together at center",
+      "asset_placeholder": "sign_equal.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "chem_q1",
+      "concept": "Chemical Reactions and Equations (CBSE Grade 10)",
+      "question": "According to the Law of Conservation of Mass, what happens to atoms during a chemical reaction?",
+      "expected_answer": "They are rearranged, never created or destroyed",
+      "options": [
+        "They are rearranged, never created or destroyed",
+        "Half of the atoms vanish into outer space",
+        "New atoms are magically invented",
+        "All atoms turn into pure gold"
+      ],
+      "hint": "The number of atoms on the left must equal the number on the right."
+    },
+    {
+      "question_id": "chem_q2",
+      "concept": "Chemical Reactions and Equations (CBSE Grade 10)",
+      "question": "What are the starting substances in a chemical reaction called?",
+      "expected_answer": "Reactants",
+      "options": ["Reactants", "Products", "Cakes", "Dust"],
+      "hint": "They 'react' together at the beginning."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+/* Base Accessible Styling */
+
+/* Accessibility & High Contrast overrides */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessible focus visible rings */
+button:focus-visible, input:focus-visible {
+  outline: 3px solid #10b981;
+  outline-offset: 2px;
+}
+
+/* Animations */
+@keyframes pulseSlow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

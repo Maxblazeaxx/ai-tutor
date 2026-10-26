@@ -1,0 +1,97 @@
+{
+  "subject": "Mathematics & Art",
+  "grade_level": 0,
+  "topic": "Early Childhood & Montessori",
+  "concept": "Shapes and Colors (Montessori)",
+  "keywords": ["shapes", "colors", "circle", "square", "triangle", "red", "blue", "yellow", "montessori", "kindergarten"],
+  "standard_explanation": "Geometry begins with identifying basic two-dimensional shapes: circles have continuous curves with no corners, squares possess four equal straight sides and four right angles, and triangles have three sides and three vertices. Primary colors (red, blue, yellow) form the chromatic foundation of visual perception.",
+  "simplified_explanation": "Let's explore fun shapes and bright colors! A round ball is a circle. A gift box is a square. A yummy slice of pizza is a triangle! Red is like a sweet strawberry, blue is like the sky, and yellow is like the warm sun.",
+  "key_points": [
+    "A circle is perfectly round with zero corners.",
+    "A square has 4 straight sides that are all the same length.",
+    "A triangle has 3 pointy corners.",
+    "Red, blue, and yellow are bright primary colors."
+  ],
+  "examples": [
+    "A wall clock or dinner plate is shaped like a circle.",
+    "A book cover or window pane is shaped like a square.",
+    "A folded napkin or roof on a house looks like a triangle."
+  ],
+  "misconceptions": [
+    "Misconception: A triangle must always point upward. Fact: A triangle has 3 sides no matter which way it turns.",
+    "Misconception: A circle has 1 corner. Fact: A circle is smooth and round with no corners."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Round Circle (Sun)",
+      "description": "A bright yellow round circle appears and spins gently like a warm sun.",
+      "visual_elements": ["circle", "yellow_color", "round"],
+      "animation_action": "shape_circle",
+      "caption": "Step 1: A circle is completely round with no corners, like the sun!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Four-Sided Square",
+      "description": "A crisp blue square with four equal sides and four corners.",
+      "visual_elements": ["square", "blue_color", "equal_sides"],
+      "animation_action": "shape_square",
+      "caption": "Step 2: A square has 4 equal straight sides, like a picture frame.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Three-Cornered Triangle",
+      "description": "A bright red triangle with three corners resembling a slice of pizza.",
+      "visual_elements": ["triangle", "red_color", "three_points"],
+      "animation_action": "shape_triangle",
+      "caption": "Step 3: A triangle has 3 pointy corners, like a delicious pizza slice!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Circle",
+      "gloss": "CIRCLE-SHAPE",
+      "description": "Dominant index finger draws a continuous round circle in the air.",
+      "handshape": "Index finger extended",
+      "movement": "Smooth clockwise circular motion in front of body",
+      "asset_placeholder": "sign_circle.svg"
+    },
+    {
+      "term": "Square",
+      "gloss": "SQUARE-BOX",
+      "description": "Both index fingers trace top, sides, and bottom of a square box simultaneously.",
+      "handshape": "Both index fingers",
+      "movement": "Trace horizontal top, down sides, inward to base",
+      "asset_placeholder": "sign_square.svg"
+    },
+    {
+      "term": "Color",
+      "gloss": "COLOR",
+      "description": "Fingers of open 5 handshape wiggle gently against chin.",
+      "handshape": "Open 5 handshape",
+      "movement": "Flutter fingertips lightly near chin",
+      "asset_placeholder": "sign_color.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "shape_q1",
+      "concept": "Shapes and Colors (Montessori)",
+      "question": "Which shape is completely round with NO corners?",
+      "expected_answer": "Circle",
+      "options": ["Circle", "Square", "Triangle", "Rectangle"],
+      "hint": "Think of a round pizza, coin, or ball."
+    },
+    {
+      "question_id": "shape_q2",
+      "concept": "Shapes and Colors (Montessori)",
+      "question": "How many sides does a triangle have?",
+      "expected_answer": "3 sides",
+      "options": ["3 sides", "4 sides", "8 sides", "Zero sides"],
+      "hint": "Count the corners on a slice of pizza."
+    }
+  ]
+}

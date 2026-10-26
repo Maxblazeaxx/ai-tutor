@@ -1,0 +1,101 @@
+{
+  "subject": "Mathematics",
+  "grade_level": 10,
+  "topic": "Trigonometry",
+  "concept": "Trigonometry and Right Triangles (CBSE Grade 10)",
+  "keywords": ["trigonometry", "sine", "cosine", "tangent", "right triangle", "hypotenuse", "cbse grade 10", "math"],
+  "standard_explanation": "Trigonometry studies the mathematical relationships between side lengths and angles in triangles. For any right-angled triangle with acute reference angle θ: sine(θ) = Opposite / Hypotenuse, cosine(θ) = Adjacent / Hypotenuse, and tangent(θ) = Opposite / Adjacent. These ratios enable the determination of inaccessible heights and distances without direct physical measurement.",
+  "simplified_explanation": "Imagine looking up at a very tall tree or a kite in the sky! We can use a right-angled triangle like a giant measurement tool. The longest slanted side is called the Hypotenuse (like a playground slide!). By knowing just one angle, trigonometry lets us calculate how tall the tree is without climbing it!",
+  "key_points": [
+    "A right triangle always has one 90-degree square corner.",
+    "The Hypotenuse is the longest side directly across from the 90-degree corner.",
+    "Sine = Opposite / Hypotenuse (how high it goes vs the long slide).",
+    "Tangent = Opposite / Adjacent (used to find building and tower heights)."
+  ],
+  "examples": [
+    "Calculating the height of a flagpole using its shadow length and sun angle.",
+    "An airplane measuring its glide angle to land safely on a runway."
+  ],
+  "misconceptions": [
+    "Misconception: Sine, Cosine, and Tangent only work on giant triangles. Fact: The ratios depend only on the angle, regardless of how small or large the triangle is.",
+    "Misconception: The Hypotenuse can be shorter than other sides. Fact: The Hypotenuse is always strictly the longest side in a right triangle."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Right-Angled Triangle Parts",
+      "description": "A clear blue right-angled triangle with square 90-degree corner, labeled Opposite, Adjacent, and Hypotenuse.",
+      "visual_elements": ["right_triangle", "hypotenuse_slide", "ninety_degree_box"],
+      "animation_action": "trig_triangle_parts",
+      "caption": "Step 1: The right triangle! The longest side is the Hypotenuse slide.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Looking Up at the Angle (Theta θ)",
+      "description": "An observer on the ground looks upward at an angle θ toward the top of a tall green pine tree.",
+      "visual_elements": ["observer_eye", "pine_tree", "angle_theta"],
+      "animation_action": "trig_angle_view",
+      "caption": "Step 2: Looking up at angle θ! The tree is the Opposite side; ground is Adjacent.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Calculating Height via Tangent Ratio",
+      "description": "The math formula shines: tan(θ) = Height / Distance. The height appears with sparkling green stars.",
+      "visual_elements": ["tan_formula", "height_measurement", "math_stars"],
+      "animation_action": "trig_solve_height",
+      "caption": "Step 3: Math magic! Tangent lets us calculate tree height without climbing!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Triangle",
+      "gloss": "TRIANGLE-SHAPE",
+      "description": "Both index fingers and thumbs touch to form a complete 3-sided triangle in the air.",
+      "handshape": "Index and thumbs touching",
+      "movement": "Held clearly in front of chest",
+      "asset_placeholder": "sign_triangle.svg"
+    },
+    {
+      "term": "Angle",
+      "gloss": "ANGLE-CORNER",
+      "description": "Non-dominant horizontal hand, dominant flat hand opens away from palm showing angle separation.",
+      "handshape": "Flat hand pivoting away from palm",
+      "movement": "Pivot outward creating an angle",
+      "asset_placeholder": "sign_angle.svg"
+    },
+    {
+      "term": "Measure / Height",
+      "gloss": "MEASURE-RULER",
+      "description": "Y-handshapes tap thumbs together twice showing ruler increments.",
+      "handshape": "Y handshapes tapping thumbs",
+      "movement": "Double thumb tap in air",
+      "asset_placeholder": "sign_measure.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "trig_q1",
+      "concept": "Trigonometry and Right Triangles (CBSE Grade 10)",
+      "question": "What is the longest side of a right-angled triangle called?",
+      "expected_answer": "Hypotenuse",
+      "options": ["Hypotenuse", "Adjacent", "Opposite", "Circle"],
+      "hint": "It is the long slanted slide opposite the 90-degree corner."
+    },
+    {
+      "question_id": "trig_q2",
+      "concept": "Trigonometry and Right Triangles (CBSE Grade 10)",
+      "question": "What is the definition of Sine in a right-angled triangle?",
+      "expected_answer": "Opposite / Hypotenuse",
+      "options": [
+        "Opposite / Hypotenuse",
+        "Hypotenuse / Opposite",
+        "Adjacent + Opposite",
+        "Zero"
+      ],
+      "hint": "Sine is Opposite divided by Hypotenuse."
+    }
+  ]
+}

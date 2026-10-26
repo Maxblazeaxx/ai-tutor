@@ -1,0 +1,96 @@
+{
+  "subject": "Physics",
+  "grade_level": 10,
+  "topic": "Electricity & Magnetism",
+  "concept": "Electricity and Ohm's Law (CBSE Grade 10)",
+  "keywords": ["electricity", "ohms law", "voltage", "current", "resistance", "amperes", "volts", "cbse grade 10", "physics"],
+  "standard_explanation": "Ohm's Law states that the electric current (I) flowing through a metallic conductor between two points is directly proportional to the potential difference (voltage, V) across the two points, provided physical conditions such as temperature remain constant: V = I * R, where R denotes electrical resistance measured in ohms (Ω).",
+  "simplified_explanation": "Imagine water flowing through a garden pipe! Voltage is the water pressure pushing the water forward. Current is how fast the water is flowing. Resistance is when someone gently squeezes the pipe to slow down the water! Ohm's law says: more push (voltage) makes more flow (current)!",
+  "key_points": [
+    "Voltage (V) is the electrical push from a battery, measured in Volts.",
+    "Current (I) is the flow of electric charge, measured in Amperes (A).",
+    "Resistance (R) is the opposition to flow, measured in Ohms (Ω).",
+    "Ohm's Law formula: Voltage = Current * Resistance (V = I * R)."
+  ],
+  "examples": [
+    "A 9V battery pushing current through a flashlight bulb to produce light.",
+    "Dimmer switches that increase resistance to make room lights softer."
+  ],
+  "misconceptions": [
+    "Misconception: Current is used up as it passes through a light bulb. Fact: Current remains the same before and after the bulb; only electrical energy is converted into light and heat.",
+    "Misconception: Electricity travels at the speed of light inside copper wire. Fact: The individual electrons drift slowly, but the electric field signal travels near light speed."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Battery Pushes Current (Voltage)",
+      "description": "A shiny cylindrical battery with positive (+) and negative (-) terminals pushing yellow glowing electric charges into wires.",
+      "visual_elements": ["battery_cells", "voltage_push", "electron_dots"],
+      "animation_action": "circuit_battery_push",
+      "caption": "Step 1: Voltage! The battery provides the push (V) that starts electrical flow.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Resistance Regulates Flow",
+      "description": "Electric charges flow through a zigzag resistor component that controls the speed of current.",
+      "visual_elements": ["zigzag_resistor", "current_flow", "charge_speed"],
+      "animation_action": "circuit_resistor_flow",
+      "caption": "Step 2: Resistance! The resistor (R) gently controls how much current can pass.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Bulb Glows Brightly",
+      "description": "The current reaches a glass light bulb filament, causing it to radiate warm golden light.",
+      "visual_elements": ["glowing_bulb", "filament", "radiant_rays"],
+      "animation_action": "circuit_bulb_light",
+      "caption": "Step 3: Ohm's Law in Action: V = I * R powers the glowing light bulb!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Electricity",
+      "gloss": "ELECTRICITY",
+      "description": "Both bent index fingers tap knuckles together repeatedly showing electric sparks.",
+      "handshape": "Bent X/index fingers tapping",
+      "movement": "Rapid double knuckle tap",
+      "asset_placeholder": "sign_electricity.svg"
+    },
+    {
+      "term": "Battery",
+      "gloss": "BATTERY-POWER",
+      "description": "Both fists tap knuckles together indicating positive and negative battery terminals.",
+      "handshape": "Fists facing each other",
+      "movement": "Tap together firmly twice",
+      "asset_placeholder": "sign_battery.svg"
+    },
+    {
+      "term": "Light / Glow",
+      "gloss": "LIGHT-EXPAND",
+      "description": "Closed and pinched fingertips open suddenly into wide shining 5-handshape.",
+      "handshape": "Flattened O to open 5",
+      "movement": "Upward burst of open fingers",
+      "asset_placeholder": "sign_light.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "ohm_q1",
+      "concept": "Electricity and Ohm's Law (CBSE Grade 10)",
+      "question": "What is the mathematical equation for Ohm's Law?",
+      "expected_answer": "V = I * R",
+      "options": ["V = I * R", "V = I + R", "V = R / I", "V = I - R"],
+      "hint": "Voltage equals Current multiplied by Resistance."
+    },
+    {
+      "question_id": "ohm_q2",
+      "concept": "Electricity and Ohm's Law (CBSE Grade 10)",
+      "question": "What unit is electrical resistance measured in?",
+      "expected_answer": "Ohms (Ω)",
+      "options": ["Ohms (Ω)", "Liters", "Grams", "Seconds"],
+      "hint": "Named after physicist Georg Ohm."
+    }
+  ]
+}

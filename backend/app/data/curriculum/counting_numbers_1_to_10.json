@@ -1,0 +1,97 @@
+{
+  "subject": "Mathematics",
+  "grade_level": 0,
+  "topic": "Early Childhood & Montessori",
+  "concept": "Counting Numbers 1 to 5 (Montessori)",
+  "keywords": ["counting", "numbers", "montessori", "one", "two", "three", "four", "five", "kindergarten", "math"],
+  "standard_explanation": "Cardinal counting associates discrete natural numbers with physical quantities using one-to-one correspondence. The sequence 1, 2, 3, 4, 5 establishes foundational numeracy, where each successive integer denotes an increment of one single unit.",
+  "simplified_explanation": "Let's count red apples together! 1 apple in the basket. Add one more, now we have 2! Add another, that makes 3! One more makes 4! And 5 makes a whole hand of fingers!",
+  "key_points": [
+    "We count by pointing to one object at a time.",
+    "1 is one single object, like the bright sun.",
+    "2 is a pair, like your two shoes.",
+    "5 is all the fingers on one hand."
+  ],
+  "examples": [
+    "1 nose on your face.",
+    "2 eyes to see the world.",
+    "5 fingers waving hello on your hand."
+  ],
+  "misconceptions": [
+    "Misconception: Counting fast is better than pointing carefully. Fact: Touching each item one by one ensures accurate counting.",
+    "Misconception: The size of the object changes its number. Fact: 3 big elephants is the same count as 3 tiny ants."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "One Apple (Number 1)",
+      "description": "One bright red shiny apple drops gently into a woven wooden basket.",
+      "visual_elements": ["basket", "apple_1", "number_1"],
+      "animation_action": "counting_apple_1",
+      "caption": "Step 1: Here is ONE red apple. (1)",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Two Apples (Number 2)",
+      "description": "A second red apple joins the basket. Now there are two apples.",
+      "visual_elements": ["basket", "apple_2", "number_2"],
+      "animation_action": "counting_apple_2",
+      "caption": "Step 2: Add one more apple. Now we have TWO apples! (1, 2)",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Three Apples (Number 3)",
+      "description": "A third shiny apple drops in. Three apples fill the basket nicely.",
+      "visual_elements": ["basket", "apple_3", "number_3"],
+      "animation_action": "counting_apple_3",
+      "caption": "Step 3: Add another apple. Now we have THREE apples! (1, 2, 3)",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "One (1)",
+      "gloss": "ONE",
+      "description": "Dominant index finger held straight up, palm facing inward/forward.",
+      "handshape": "Index finger extended",
+      "movement": "Held stationary in front of chest",
+      "asset_placeholder": "sign_num_1.svg"
+    },
+    {
+      "term": "Two (2)",
+      "gloss": "TWO",
+      "description": "Index and middle finger held upward in a V-shape.",
+      "handshape": "V handshape",
+      "movement": "Held stationary in front of chest",
+      "asset_placeholder": "sign_num_2.svg"
+    },
+    {
+      "term": "Three (3)",
+      "gloss": "THREE",
+      "description": "Thumb, index finger, and middle finger extended outward (ASL/ISL numeral 3).",
+      "handshape": "Thumb and first two fingers",
+      "movement": "Held clearly in view",
+      "asset_placeholder": "sign_num_3.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "count_q1",
+      "concept": "Counting Numbers 1 to 5 (Montessori)",
+      "question": "How many fingers do you have on one hand?",
+      "expected_answer": "5 fingers",
+      "options": ["5 fingers", "2 fingers", "10 fingers", "1 finger"],
+      "hint": "Hold up your hand and count: thumb, index, middle, ring, pinky."
+    },
+    {
+      "question_id": "count_q2",
+      "concept": "Counting Numbers 1 to 5 (Montessori)",
+      "question": "If you have 1 apple and get 1 more, how many apples do you have?",
+      "expected_answer": "2 apples",
+      "options": ["2 apples", "5 apples", "0 apples", "100 apples"],
+      "hint": "1 plus 1 equals..."
+    }
+  ]
+}

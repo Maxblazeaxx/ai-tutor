@@ -1,0 +1,47 @@
+{
+  "concept": "Electric Circuits and Batteries",
+  "subject": "Physics",
+  "grade_level": 5,
+  "standard_explanation": "An electric circuit is a closed loop conducting path through which electric current flows. A battery acts as an energy source pushing electrons through wires to light a bulb.",
+  "simplified_explanation": "A circuit is like a running track for electricity! The battery pushes the power through the wire to light up the bulb.",
+  "key_points": [
+    "A battery provides electrical energy.",
+    "Wires create a path for current to flow.",
+    "The circuit must be closed and complete to light a bulb."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Battery and Bulb",
+      "description": "A battery connected with copper wires to a small glowing bulb.",
+      "animation_action": "circuit_flow",
+      "caption": "Step 1: The battery pushes electricity through wires.",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Battery",
+      "gloss": "BATTERY-POWER",
+      "description": "Two fists tap together representing positive and negative terminals.",
+      "handshape": "Fists tapping",
+      "movement": "Tap twice",
+      "asset_placeholder": "sign_battery.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "circuit_q1",
+      "concept": "Electric Circuits and Batteries",
+      "question": "What happens when the circuit is complete?",
+      "expected_answer": "The bulb lights up",
+      "options": [
+        "The bulb lights up",
+        "The wire melts immediately",
+        "Electricity vanishes",
+        "The battery disappears"
+      ],
+      "hint": "Think about what electricity makes happen."
+    }
+  ]
+}

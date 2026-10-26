@@ -1,0 +1,106 @@
+{
+  "subject": "Physics",
+  "grade_level": 6,
+  "topic": "Magnetism & Forces",
+  "concept": "Magnets and Magnetic Poles (CBSE Grade 6)",
+  "keywords": ["magnets", "poles", "north", "south", "attract", "repel", "magnetic force", "cbse grade 6", "physics"],
+  "standard_explanation": "A magnet produces a magnetic field that exerts force on ferromagnetic materials such as iron, cobalt, and nickel. Every magnet has two distinct poles: a North-seeking pole (N) and a South-seeking pole (S). The fundamental law of magnetic poles states that unlike (opposite) poles attract each other, whereas like (similar) poles repel each other.",
+  "simplified_explanation": "Magnets are like magical friends with special hugs! Every magnet has two sides: a North pole (Red) and a South pole (Blue). When a Red pole meets a Blue pole, snap! They hug together (Attract). But when two Red poles face each other, whoosh! They push each other away (Repel)!",
+  "key_points": [
+    "Every magnet has two poles: North (N) and South (S).",
+    "Opposite poles attract: North and South pull together.",
+    "Similar poles repel: North pushes North away; South pushes South away.",
+    "Magnets attract metals like iron, steel, and nickel, but not wood or plastic."
+  ],
+  "examples": [
+    "Refrigerator magnets sticking firmly to the metal fridge door.",
+    "A magnetic compass needle pointing toward Earth's magnetic north pole."
+  ],
+  "misconceptions": [
+    "Misconception: If you cut a magnet in half, you get a separate North pole and South pole. Fact: Cutting a magnet creates two smaller complete magnets, each with its own North and South poles.",
+    "Misconception: Magnets stick to all metals like aluminum or gold. Fact: Magnets only attract ferromagnetic metals like iron and steel."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Bar Magnet Poles",
+      "description": "A classic red (North) and blue (South) bar magnet rests on a table with clear pole labels.",
+      "visual_elements": ["bar_magnet", "north_pole_red", "south_pole_blue"],
+      "animation_action": "magnet_single_bar",
+      "caption": "Step 1: Every magnet has two ends: a North pole (N) and a South pole (S).",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Opposite Poles Attract!",
+      "description": "North (Red) faces South (Blue). Magnetic flux lines snap them together with spark stars.",
+      "visual_elements": ["attraction_sparks", "north_faces_south", "pull_together"],
+      "animation_action": "magnet_attract_poles",
+      "caption": "Step 2: Opposite poles love each other! North and South pull together (Attract)!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Like Poles Repel!",
+      "description": "North (Red) faces North (Red). An invisible magnetic force pushes them apart.",
+      "visual_elements": ["repulsion_arrows", "north_faces_north", "push_apart"],
+      "animation_action": "magnet_repel_poles",
+      "caption": "Step 3: Same poles push away! North pushes North away (Repel)!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Magnet",
+      "gloss": "MAGNET-PULL",
+      "description": "Bent C-handshapes pull together sharply, miming magnetic stickiness.",
+      "handshape": "Bent claw/C handshapes",
+      "movement": "Hands snap together with a firm clasp",
+      "asset_placeholder": "sign_magnet.svg"
+    },
+    {
+      "term": "Attract",
+      "gloss": "PULL-TOGETHER",
+      "description": "Both open hands facing inward pull towards each other rapidly.",
+      "handshape": "Open flat hands inward",
+      "movement": "Move inward until touching",
+      "asset_placeholder": "sign_attract.svg"
+    },
+    {
+      "term": "Repel",
+      "gloss": "PUSH-AWAY",
+      "description": "Palms facing each other push forcefully apart in opposite directions.",
+      "handshape": "Palms facing outward",
+      "movement": "Sharp outward separation motion",
+      "asset_placeholder": "sign_repel.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "magnet_q1",
+      "concept": "Magnets and Magnetic Poles (CBSE Grade 6)",
+      "question": "What happens when a North pole faces a South pole?",
+      "expected_answer": "They attract and pull together",
+      "options": [
+        "They attract and pull together",
+        "They push each other far away",
+        "They melt into water",
+        "Nothing happens at all"
+      ],
+      "hint": "Opposite poles attract each other."
+    },
+    {
+      "question_id": "magnet_q2",
+      "concept": "Magnets and Magnetic Poles (CBSE Grade 6)",
+      "question": "What happens when two North poles are pushed toward each other?",
+      "expected_answer": "They repel and push apart",
+      "options": [
+        "They repel and push apart",
+        "They stick together like glue",
+        "They disappear completely",
+        "They start singing"
+      ],
+      "hint": "Like poles repel."
+    }
+  ]
+}

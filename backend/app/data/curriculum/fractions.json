@@ -1,0 +1,116 @@
+{
+  "subject": "Mathematics",
+  "grade_level": 3,
+  "topic": "Basic Fractions",
+  "concept": "Fractions (Halves and Quarters)",
+  "keywords": ["fraction", "half", "quarter", "whole", "equal parts", "divide", "share", "pizza"],
+  "standard_explanation": "A fraction represents a numerical part of a whole quantity or collection. When a single whole object is partitioned into equal divisions, each portion constitutes a fractional unit. For example, dividing an item into two equal sections produces halves (1/2), while dividing it into four equal parts produces quarters (1/4). The numerator denotes the number of parts selected, while the denominator indicates the total number of equal parts comprising the whole.",
+  "simplified_explanation": "A fraction means sharing fairly. Imagine a round pizza. When we cut the pizza down the middle into 2 equal pieces, each piece is one half (1/2). When we cut it again into 4 equal slices, each slice is one quarter (1/4). All parts must be the same size so everyone gets an equal share!",
+  "key_points": [
+    "A whole is complete and not broken.",
+    "One Half (1/2) is 1 piece out of 2 equal parts.",
+    "One Quarter (1/4) is 1 piece out of 4 equal parts.",
+    "All parts must be equal in size to be a fair fraction.",
+    "Putting two halves together makes one whole again."
+  ],
+  "examples": [
+    "Cutting a crisp red apple into 2 identical halves to share with a best friend.",
+    "A sandwich cut across the middle into 2 equal triangles."
+  ],
+  "misconceptions": [
+    "Misconception: Any cut piece is a half, even if one is big and one is small. Fact: Fractions MUST be exactly equal in size.",
+    "Misconception: 1/4 is bigger than 1/2 because 4 is bigger than 2. Fact: More pieces mean each individual slice is smaller."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "One Whole Pizza",
+      "description": "A delicious round, uncut cheese pizza sits on a wooden board. It is one complete whole.",
+      "visual_elements": ["whole_pizza", "wooden_board", "cheese"],
+      "animation_action": "whole_object",
+      "caption": "Step 1: Here is one whole delicious pizza.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Cutting into Two Halves (1/2)",
+      "description": "A rolling pizza cutter slices straight through the middle, separating the pizza into 2 equal halves.",
+      "visual_elements": ["pizza_halves", "cutter", "fraction_labels"],
+      "animation_action": "cut_half",
+      "caption": "Step 2: Cut down the middle into 2 equal halves (1/2).",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Cutting into Four Quarters (1/4)",
+      "description": "A second slice creates 4 equal quarter slices. Each slice is 1/4 of the whole pizza.",
+      "visual_elements": ["pizza_quarters", "four_slices", "quarter_label"],
+      "animation_action": "cut_quarter",
+      "caption": "Step 3: Cut again to get 4 equal quarter slices (1/4).",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 4,
+      "title": "Sharing with Friends",
+      "description": "Smiling friends each pick up one equal quarter slice, demonstrating fair sharing.",
+      "visual_elements": ["happy_friends", "equal_slices"],
+      "animation_action": "share_equally",
+      "caption": "Step 4: Fair sharing means everyone gets an equal piece!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Fraction",
+      "gloss": "PART / FRACTION",
+      "description": "Non-dominant flat hand forms base; dominant hand slices down across it, indicating a divided portion.",
+      "handshape": "Flat B-handshape cutting down",
+      "movement": "Downward dividing motion",
+      "asset_placeholder": "sign_fraction.svg"
+    },
+    {
+      "term": "Half",
+      "gloss": "HALF (1/2)",
+      "description": "Index finger indicates 1, then drops downward indicating 2 (1 over 2).",
+      "handshape": "Index finger '1' then drops to '2'",
+      "movement": "Vertical downward drop",
+      "asset_placeholder": "sign_half.svg"
+    },
+    {
+      "term": "Equal",
+      "gloss": "EQUAL / SAME",
+      "description": "Bent open hands tap fingertips together twice at chest height to show identical balance.",
+      "handshape": "Bent flat hands",
+      "movement": "Fingertips tap together horizontally",
+      "asset_placeholder": "sign_equal.svg"
+    },
+    {
+      "term": "Share",
+      "gloss": "SHARE / DIVIDE",
+      "description": "Dominant hand rocks back and forth between two open spaces showing equal distribution.",
+      "handshape": "Open 5 palm facing inward",
+      "movement": "Rocking lateral sweep",
+      "asset_placeholder": "sign_share.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "frac_q1",
+      "concept": "Fractions (Halves and Quarters)",
+      "question": "If you cut an apple into 2 equal pieces, what is one piece called?",
+      "expected_answer": "Half",
+      "options": ["Half", "Quarter", "Whole", "Triple"],
+      "hint": "It is one part out of two equal pieces (1/2).",
+      "visual_cue": "half_slice"
+    },
+    {
+      "question_id": "frac_q2",
+      "concept": "Fractions (Halves and Quarters)",
+      "question": "How many equal pieces make up one whole when you cut it into quarters?",
+      "expected_answer": "4",
+      "options": ["4", "2", "1", "10"],
+      "hint": "Think of a clock or 4 quarters in a whole game.",
+      "visual_cue": "four_slices"
+    }
+  ]
+}

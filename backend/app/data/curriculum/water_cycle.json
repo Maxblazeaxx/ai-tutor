@@ -1,0 +1,108 @@
+{
+  "subject": "Science",
+  "grade_level": 4,
+  "topic": "Earth Science",
+  "concept": "Water Cycle",
+  "keywords": ["water cycle", "evaporation", "condensation", "precipitation", "rain", "clouds", "sun", "ocean"],
+  "standard_explanation": "The water cycle, also known as the hydrologic cycle, describes the continuous movement of water on, above, and below the surface of the Earth. Solar heat warms bodies of water, causing liquid water to evaporate into water vapor. As this warm vapor rises into the cooler atmosphere, it condenses to form clouds. When cloud droplets accumulate and become heavy, water falls back to Earth as precipitation (rain, snow, or sleet), collecting in rivers, lakes, and oceans before the cycle repeats.",
+  "simplified_explanation": "Water moves in a giant circle. The warm sun warms the water. Water rises up into the sky. High up, water gets cold and makes fluffy clouds. When the clouds are full, rain falls down. The rain fills lakes and rivers, and the story starts again.",
+  "key_points": [
+    "The water cycle never stops; it keeps moving in a circle.",
+    "Evaporation: Sun warms water into invisible vapor rising up.",
+    "Condensation: Cold air turns vapor into fluffy clouds.",
+    "Precipitation: Water falls down as rain or snow.",
+    "Collection: Water gathers in rivers, lakes, and oceans."
+  ],
+  "examples": [
+    "Puddles on the street dry up after a sunny afternoon because of evaporation.",
+    "Tiny water drops appearing on the outside of a cold glass of ice water show condensation."
+  ],
+  "misconceptions": [
+    "Misconception: Rain comes from holes in clouds. Fact: Water drops inside the cloud grow too heavy for the air to hold, so they fall as precipitation.",
+    "Misconception: Water disappearing from a puddle is gone forever. Fact: It turned into water vapor in the air."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Sun Warms the Water",
+      "description": "Warm sun shines down over a sparkling blue lake, causing gentle steam to rise upward.",
+      "visual_elements": ["sun", "lake", "steam_arrows"],
+      "animation_action": "evaporation_rise",
+      "caption": "The warm sun turns water into vapor rising up.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Clouds Form High in the Sky",
+      "description": "Cool breeze gathers water vapor into thick, soft white and gray clouds.",
+      "visual_elements": ["cool_wind", "forming_clouds", "droplets"],
+      "animation_action": "cloud_condensation",
+      "caption": "Water vapor cools down and forms clouds.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Rain Falls Down",
+      "description": "Heavy gray clouds shower gentle blue raindrops back onto green hills and trees.",
+      "visual_elements": ["rain_drops", "green_hills", "cloud"],
+      "animation_action": "precipitation_rain",
+      "caption": "Rain falls from the clouds back to Earth.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 4,
+      "title": "Water Returns to Lake",
+      "description": "Rainwater flows down mountain streams back into the sparkling blue lake.",
+      "visual_elements": ["stream", "lake", "reflection"],
+      "animation_action": "collection_flow",
+      "caption": "Water collects in the lake, ready to begin again.",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Water",
+      "gloss": "WATER",
+      "description": "W-handshape taps index finger gently twice against the chin.",
+      "handshape": "W-handshape",
+      "movement": "Double tap at chin",
+      "asset_placeholder": "sign_water.svg"
+    },
+    {
+      "term": "Rain",
+      "gloss": "RAIN-FALL",
+      "description": "Open claw hands move downward in gentle fluttering motion.",
+      "handshape": "Loose claw hands",
+      "movement": "Downward repeated drops",
+      "asset_placeholder": "sign_rain.svg"
+    },
+    {
+      "term": "Cloud",
+      "gloss": "CLOUD",
+      "description": "Curved C-hands trace puffy cloud outlines moving horizontally.",
+      "handshape": "C-handshapes facing each other",
+      "movement": "Circular rolling clouds",
+      "asset_placeholder": "sign_cloud.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "water_q1",
+      "concept": "Water Cycle",
+      "question": "What is it called when water warms up and turns into vapor rising into the air?",
+      "expected_answer": "Evaporation",
+      "options": ["Evaporation", "Freezing", "Melting", "Digestion"],
+      "hint": "The warm sun causes liquid water to become vapor.",
+      "visual_cue": "rising_vapor"
+    },
+    {
+      "question_id": "water_q2",
+      "concept": "Water Cycle",
+      "question": "What falls from heavy clouds during precipitation?",
+      "expected_answer": "Rain",
+      "options": ["Rain", "Leaves", "Stones", "Sand"],
+      "hint": "Water droplets falling from the sky.",
+      "visual_cue": "raindrops"
+    }
+  ]
+}

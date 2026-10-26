@@ -1,0 +1,160 @@
+{
+  "subject": "Science",
+  "grade_level": 5,
+  "topic": "Plant Biology",
+  "concept": "Photosynthesis",
+  "keywords": ["photosynthesis", "sunlight", "chlorophyll", "carbon dioxide", "water", "glucose", "oxygen", "leaves", "roots"],
+  "standard_explanation": "Photosynthesis is the biological process by which green plants, algae, and certain bacteria convert light energy, usually from the sun, into chemical energy in the form of glucose. During this process, plants absorb water from the soil through their roots and carbon dioxide from the air through microscopic pores in their leaves called stomata. Using chlorophyll, the green pigment located inside chloroplasts, plants harness solar energy to synthesize glucose (sugar) for food and release oxygen gas back into the atmosphere as a vital byproduct.",
+  "simplified_explanation": "Plants make their own food using sunlight. The sun gives light. Roots drink water from the soil. Green leaves take in carbon dioxide from the air. Inside the leaf, sunlight turns water and air into sweet plant food. Then, the plant releases fresh oxygen for us to breathe.",
+  "key_points": [
+    "Plants need three things: sunlight, water, and carbon dioxide.",
+    "Roots absorb water from the ground.",
+    "Leaves take in carbon dioxide gas from the air.",
+    "Chlorophyll is the green helper inside leaves that catches sunlight.",
+    "The plant produces glucose (sugar food) to grow.",
+    "The plant breathes out fresh oxygen into the air."
+  ],
+  "examples": [
+    "A potted money plant placed near a sunny window grows green and healthy because it receives sunlight and water.",
+    "A plant kept inside a dark cupboard turns pale and weak because it cannot perform photosynthesis without light."
+  ],
+  "misconceptions": [
+    "Misconception: Plants eat soil for food. Fact: Plants absorb water and minerals from soil, but produce their own food (glucose) via photosynthesis.",
+    "Misconception: Plants only make food at night. Fact: Photosynthesis requires light energy, so it happens during the day."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "The Warm Sun Appears",
+      "description": "A bright yellow sun shines warmly in the blue sky above a green plant.",
+      "visual_elements": ["sun", "sky", "plant", "rays"],
+      "animation_action": "sun_glow",
+      "caption": "The bright sun shines in the sky.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Sunlight Reaches the Leaf",
+      "description": "Golden light rays travel down from the sun and are absorbed by the green leaves.",
+      "visual_elements": ["sun_rays", "leaf", "chloroplasts"],
+      "animation_action": "sunlight_to_plant",
+      "caption": "Sunlight reaches the plant's green leaves.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Roots Drink Water",
+      "description": "Blue water droplets in the brown soil travel upward through the roots and stem into the leaves.",
+      "visual_elements": ["soil", "roots", "water_droplets", "stem"],
+      "animation_action": "water_up_roots",
+      "caption": "Roots absorb water from the soil.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 4,
+      "title": "Leaves Breathe In Carbon Dioxide",
+      "description": "Molecules of carbon dioxide gas from the air enter tiny pores (stomata) on the leaf surface.",
+      "visual_elements": ["air", "carbon_dioxide_particles", "leaf_pores"],
+      "animation_action": "co2_into_leaf",
+      "caption": "The leaf takes in carbon dioxide from the air.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 5,
+      "title": "Plant Makes Food (Sugar)",
+      "description": "Inside the green chloroplast factory, sunlight mixes water and carbon dioxide to create sweet glucose food.",
+      "visual_elements": ["chloroplast_factory", "glucose_sparkles", "growing_plant"],
+      "animation_action": "make_food_sparkle",
+      "caption": "The plant makes sweet food (sugar) to grow strong.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 6,
+      "title": "Oxygen is Released",
+      "description": "Fresh bubbles of clean oxygen float out from the leaf into the atmosphere for humans and animals.",
+      "visual_elements": ["oxygen_bubbles", "leaf", "atmosphere", "smiling_butterfly"],
+      "animation_action": "oxygen_released",
+      "caption": "The plant releases clean oxygen for us to breathe.",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Plant",
+      "gloss": "PLANT-GROW",
+      "description": "Dominant hand emerges upward from non-dominant hand, opening fingers like a growing plant.",
+      "handshape": "Open 5 handshape upward",
+      "movement": "Upward emerging growth movement",
+      "asset_placeholder": "sign_plant.svg"
+    },
+    {
+      "term": "Sunlight",
+      "gloss": "SUN LIGHT-BEAM",
+      "description": "Index finger circles above head for sun, then hand opens outward streaming downward onto body.",
+      "handshape": "C-handshape then open 5 streaming down",
+      "movement": "Sun circle then downward rays",
+      "asset_placeholder": "sign_sunlight.svg"
+    },
+    {
+      "term": "Water",
+      "gloss": "WATER",
+      "description": "W-handshape taps index finger gently twice against the chin.",
+      "handshape": "W-handshape",
+      "movement": "Double tap at chin",
+      "asset_placeholder": "sign_water.svg"
+    },
+    {
+      "term": "Carbon Dioxide",
+      "gloss": "AIR IN",
+      "description": "Hands indicate breathing in air / fingerspell C-O-2.",
+      "handshape": "Flat hands curving toward leaf/chest",
+      "movement": "Inward drawing movement",
+      "asset_placeholder": "sign_co2.svg"
+    },
+    {
+      "term": "Oxygen",
+      "gloss": "OXYGEN / AIR OUT",
+      "description": "Fingerspell O-2 then gentle expansive hands showing fresh air released.",
+      "handshape": "Open palm expanding outward",
+      "movement": "Expansive outward release",
+      "asset_placeholder": "sign_oxygen.svg"
+    },
+    {
+      "term": "Food",
+      "gloss": "FOOD / EAT",
+      "description": "Flattened O-handshape taps fingers gently toward mouth/stem.",
+      "handshape": "Flattened O-handshape",
+      "movement": "Gentle forward tap",
+      "asset_placeholder": "sign_food.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "photo_q1",
+      "concept": "Photosynthesis",
+      "question": "Which gas does the plant take from the air during photosynthesis?",
+      "expected_answer": "Carbon dioxide",
+      "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Helium"],
+      "hint": "It is the gas that enters the tiny pores in the leaves.",
+      "visual_cue": "leaf_inlet"
+    },
+    {
+      "question_id": "photo_q2",
+      "concept": "Photosynthesis",
+      "question": "What clean gas does the plant release into the air for us to breathe?",
+      "expected_answer": "Oxygen",
+      "options": ["Oxygen", "Carbon dioxide", "Smoke", "Hydrogen"],
+      "hint": "Humans and animals need this fresh gas to breathe.",
+      "visual_cue": "fresh_air_bubbles"
+    },
+    {
+      "question_id": "photo_q3",
+      "concept": "Photosynthesis",
+      "question": "What part of the plant absorbs water from the soil?",
+      "expected_answer": "Roots",
+      "options": ["Roots", "Flowers", "Bark", "Fruits"],
+      "hint": "They grow underground beneath the soil.",
+      "visual_cue": "underground_roots"
+    }
+  ]
+}

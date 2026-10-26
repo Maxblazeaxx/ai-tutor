@@ -1,0 +1,96 @@
+{
+  "subject": "Biology & Genetics",
+  "grade_level": 10,
+  "topic": "Heredity & Evolution",
+  "concept": "Heredity and Genetics (CBSE Grade 10)",
+  "keywords": ["heredity", "genetics", "dna", "chromosomes", "mendel", "dominant", "recessive", "traits", "cbse grade 10", "biology"],
+  "standard_explanation": "Heredity constitutes the transmission of genetically encoded physiological and morphological traits from progenitor parents to offspring. Gregor Mendel elucidated the laws of inheritance (Segregation and Independent Assortment) using Pisum sativum pea plants. Traits are governed by discrete pairs of alleles situated on homologous chromosomes within cellular DNA, exhibiting dominant or recessive phenotypic expression.",
+  "simplified_explanation": "Have you ever wondered why you have your mom's sweet smile or your dad's brown eyes? That is heredity! Inside every cell of your body is a tiny recipe book called DNA. Half of the recipes come from your mom, and half come from your dad! Strong recipes are called Dominant, like dark hair or tall plants!",
+  "key_points": [
+    "Heredity is how traits (eye color, hair texture, height) pass from parents to children.",
+    "DNA is the microscopic genetic instruction manual inside the nucleus of our cells.",
+    "Gregor Mendel discovered the laws of genetics using garden pea plants.",
+    "Dominant traits (like brown eyes) show up even if only one parent passes the gene."
+  ],
+  "examples": [
+    "A child having curly hair because their mother passed the dominant curly hair gene.",
+    "Mendel crossing tall pea plants with short pea plants, producing all tall offspring in the first generation (F1)."
+  ],
+  "misconceptions": [
+    "Misconception: A child gets 100% of traits from the parent they look most like. Fact: Every child receives exactly 50% of nuclear DNA from each biological parent.",
+    "Misconception: Learned skills like playing guitar are passed down through genes. Fact: Only inherited genetic traits pass down; skills must be practiced and learned."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "DNA Double Helix Recipe Book",
+      "description": "A sparkling, rotating double-helix DNA ladder glowing with colorful base-pair rungs inside a cell nucleus.",
+      "visual_elements": ["dna_ladder", "double_helix", "glowing_rungs"],
+      "animation_action": "genetics_dna_helix",
+      "caption": "Step 1: DNA! The microscopic spiral ladder that holds our life recipes.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Mendel's Pea Plant Experiment",
+      "description": "A tall green pea plant and a short dwarf pea plant cross-pollinate, producing tall healthy green offspring.",
+      "visual_elements": ["tall_pea_plant", "short_pea_plant", "cross_pollination"],
+      "animation_action": "genetics_pea_cross",
+      "caption": "Step 2: Mendel's Peas! Tall (T) is dominant over short (t) in the garden!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Family Traits Passed Down",
+      "description": "A loving family tree showing how eye color and smiles are passed from parents to happy children.",
+      "visual_elements": ["family_tree", "inherited_traits", "happy_child"],
+      "animation_action": "genetics_family_tree",
+      "caption": "Step 3: Heredity in You! You carry beautiful traits from your family tree!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "DNA / Genes",
+      "gloss": "GENES-DNA",
+      "description": "Both index fingers rotate around each other in an upward spiral, miming the double-helix twist.",
+      "handshape": "Index fingers twisting",
+      "movement": "Upward spiral intertwining motion",
+      "asset_placeholder": "sign_dna.svg"
+    },
+    {
+      "term": "Family / Parent",
+      "gloss": "FAMILY",
+      "description": "F-handshapes touching thumbs and index fingers circle outward and meet pinkies together.",
+      "handshape": "Both F-handshapes",
+      "movement": "Outward circle joining at pinkies",
+      "asset_placeholder": "sign_family.svg"
+    },
+    {
+      "term": "Same / Resemble",
+      "gloss": "SAME-LOOK",
+      "description": "Y-handshape rocks side to side between parent and child, indicating shared resemblance.",
+      "handshape": "Y-handshape",
+      "movement": "Side to side pointing motion",
+      "asset_placeholder": "sign_same.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "gene_q1",
+      "concept": "Heredity and Genetics (CBSE Grade 10)",
+      "question": "What is the microscopic spiral molecule that carries genetic instructions inside our cells?",
+      "expected_answer": "DNA",
+      "options": ["DNA", "Plastic", "Sugar water", "Iron ore"],
+      "hint": "Deoxyribonucleic Acid, shaped like a twisted spiral ladder."
+    },
+    {
+      "question_id": "gene_q2",
+      "concept": "Heredity and Genetics (CBSE Grade 10)",
+      "question": "Which scientist is honored as the 'Father of Genetics' for his famous pea plant experiments?",
+      "expected_answer": "Gregor Mendel",
+      "options": ["Gregor Mendel", "Isaac Newton", "Albert Einstein", "Thomas Edison"],
+      "hint": "An Austrian monk who studied garden peas."
+    }
+  ]
+}

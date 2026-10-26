@@ -1,0 +1,97 @@
+{
+  "subject": "Chemistry",
+  "grade_level": 7,
+  "topic": "Chemical Substances",
+  "concept": "Acids, Bases, and Salts (CBSE Grade 7)",
+  "keywords": ["acids", "bases", "salts", "litmus", "ph", "sour", "bitter", "indicator", "neutralization", "cbse grade 7"],
+  "standard_explanation": "Acids are chemical compounds that yield hydrogen ions (H+) in aqueous solution, exhibiting a sour taste and turning blue litmus paper red (pH < 7). Bases yield hydroxide ions (OH-), taste bitter, feel slippery, and turn red litmus paper blue (pH > 7). When an acid reacts stoichiometrically with a base, neutralization occurs, producing neutral salt and water.",
+  "simplified_explanation": "Think of tastes in your kitchen! Lemon juice is sour because it has acid. Soap feels slippery and tastes bitter because it is a base. Scientists use a magic paper strip called litmus paper: acids turn blue litmus red, and bases turn red litmus blue! When they mix together, they balance each other out into salt and water.",
+  "key_points": [
+    "Acids taste sour and turn blue litmus paper red (like lemon juice or vinegar).",
+    "Bases taste bitter, feel slippery, and turn red litmus paper blue (like soap or baking soda).",
+    "Litmus paper is a natural color indicator made from lichens.",
+    "Acid + Base mix together = Salt + Water (Neutralization reaction)."
+  ],
+  "examples": [
+    "Lemon juice and orange juice contain citric acid.",
+    "Soap water and toothpaste contain mild bases to clean.",
+    "Common table salt (sodium chloride) formed from acid-base neutralization."
+  ],
+  "misconceptions": [
+    "Misconception: All acids are dangerous and burn your skin. Fact: Many weak acids are safe and healthy to eat, like vitamin C in oranges.",
+    "Misconception: Bases are harmless while acids are harmful. Fact: Strong bases like bleach or drain cleaner are just as corrosive as strong acids."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Lemon Sour Acid (Litmus Turns Red)",
+      "description": "A glass beaker filled with yellow lemon acid. Blue litmus paper is dipped and instantly turns bright red.",
+      "visual_elements": ["beaker_acid", "litmus_strip", "turns_red"],
+      "animation_action": "acid_litmus_red",
+      "caption": "Step 1: Acids! Lemon juice is sour. Dipping litmus turns the paper RED!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Slippery Soap Base (Litmus Turns Blue)",
+      "description": "A glass beaker filled with soapy base. Red litmus paper is dipped and turns deep royal blue.",
+      "visual_elements": ["beaker_base", "litmus_strip", "turns_blue"],
+      "animation_action": "base_litmus_blue",
+      "caption": "Step 2: Bases! Soapy water is slippery. Dipping litmus turns the paper BLUE!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Neutralization into Salt and Water",
+      "description": "Acid and base pour together into a flask, fizzing gently and settling into pure water and salt crystals.",
+      "visual_elements": ["mixing_flask", "fizzing_reaction", "salt_crystals"],
+      "animation_action": "neutralization_salt",
+      "caption": "Step 3: Neutralization! Acid + Base combine to form safe Salt and Water!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Acid",
+      "gloss": "ACID-SOUR",
+      "description": "A-handshape dominant index finger points toward corner of mouth indicating sour pucker.",
+      "handshape": "A-handshape near cheek",
+      "movement": "Pucker mouth with sharp twist",
+      "asset_placeholder": "sign_acid.svg"
+    },
+    {
+      "term": "Base / Soap",
+      "gloss": "SOAP-SLIPPERY",
+      "description": "Dominant fingers slide smoothly across palm of other hand indicating slippery texture.",
+      "handshape": "Flat palm rubbing flat palm",
+      "movement": "Smooth sliding motion across palm",
+      "asset_placeholder": "sign_base.svg"
+    },
+    {
+      "term": "Salt",
+      "gloss": "SALT-SPRINKLE",
+      "description": "V-fingers of dominant hand tap over non-dominant V-fingers, mimicking salt shaker.",
+      "handshape": "V-handshapes tapping",
+      "movement": "Alternating downward gentle tap",
+      "asset_placeholder": "sign_salt.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "acid_q1",
+      "concept": "Acids, Bases, and Salts (CBSE Grade 7)",
+      "question": "What color does blue litmus paper turn when dipped into an acid?",
+      "expected_answer": "Red",
+      "options": ["Red", "Blue", "Green", "Black"],
+      "hint": "Acids turn litmus paper Red (like a red strawberry)."
+    },
+    {
+      "question_id": "acid_q2",
+      "concept": "Acids, Bases, and Salts (CBSE Grade 7)",
+      "question": "Which of these everyday items is an acid with a sour taste?",
+      "expected_answer": "Lemon juice",
+      "options": ["Lemon juice", "Baking soap", "Chalk powder", "Toothpaste"],
+      "hint": "It comes from yellow citrus fruit."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "subject": "Early Science & Nature",
+  "grade_level": 0,
+  "topic": "Early Childhood & Montessori",
+  "concept": "Living and Non-Living Things (Montessori)",
+  "keywords": ["living", "non-living", "grow", "breathe", "plants", "animals", "montessori", "kindergarten", "cbse grade 1"],
+  "standard_explanation": "Biological entities (living organisms) possess defining biological characteristics: cellular organization, metabolic nutrient assimilation, respiration, biological growth and development, homeostasis, reproduction, and responsiveness to environmental stimuli. Non-living objects do not grow, metabolize, or reproduce independently.",
+  "simplified_explanation": "Let's learn who is ALIVE and who is not! A puppy is a living thing—it runs, breathes air, eats food, and grows big! A green plant is living—it drinks water and grows tall towards the sun! But a toy car or a stone is non-living—it does not eat, it does not breathe, and it stays the same size forever!",
+  "key_points": [
+    "Living things need water, food, and air to grow.",
+    "Living things can grow bigger and have baby plants or baby animals.",
+    "Non-living things (like chairs, rocks, and toys) do not eat or grow.",
+    "Trees, birds, fish, and people are all wonderful living things!"
+  ],
+  "examples": [
+    "A tiny seed growing into a tall sunflower is a living thing.",
+    "A plastic toy brick that stays the exact same size is a non-living thing."
+  ],
+  "misconceptions": [
+    "Misconception: Because clouds move across the sky, they are alive. Fact: Clouds are moved by wind; they do not eat, grow cells, or breathe.",
+    "Misconception: Plants are not alive because they don't walk. Fact: Plants are very much alive; they breathe air, drink water, and make food."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Living Puppy & Sprout (They Grow!)",
+      "description": "A happy puppy drinks water and wags its tail, while a small green plant sprout grows taller in the soil.",
+      "visual_elements": ["happy_puppy", "growing_sprout", "sunlight"],
+      "animation_action": "living_sprout_puppy",
+      "caption": "Step 1: Living things breathe, eat, drink water, and grow big!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Non-Living Stone & Toy (They Don't Eat)",
+      "description": "A grey pebble and a toy wooden block rest quietly; they never eat or grow.",
+      "visual_elements": ["pebble_stone", "wooden_block", "quiet_rest"],
+      "animation_action": "nonliving_rock_toy",
+      "caption": "Step 2: Non-living things don't eat food or grow. They stay the same!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Sorting Game: Living vs Non-Living",
+      "description": "A fun sorting basket where flowers and butterflies go to Living, and balls go to Non-Living.",
+      "visual_elements": ["sorting_baskets", "flower", "butterfly", "toy_ball"],
+      "animation_action": "living_sorting_baskets",
+      "caption": "Step 3: Great sorting! Nature is full of wonderful living friends!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Living / Alive",
+      "gloss": "ALIVE-GROW",
+      "description": "Both L-handshapes start at waist and move upward while changing into fists showing vitality.",
+      "handshape": "L-handshapes moving upward",
+      "movement": "Upward motion along chest",
+      "asset_placeholder": "sign_alive.svg"
+    },
+    {
+      "term": "Grow",
+      "gloss": "PLANT-GROW",
+      "description": "Dominant hand emerges upward through non-dominant fist like a flower blooming.",
+      "handshape": "Hand emerging from fist",
+      "movement": "Push upward and spread fingers",
+      "asset_placeholder": "sign_grow.svg"
+    },
+    {
+      "term": "Toy / Object",
+      "gloss": "TOY-PLAY",
+      "description": "Both Y-handshapes shake gently with playful twisting motion.",
+      "handshape": "Y-handshapes",
+      "movement": "Playful wrist rotation",
+      "asset_placeholder": "sign_toy.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "living_q1",
+      "concept": "Living and Non-Living Things (Montessori)",
+      "question": "Which of these is a LIVING thing that drinks water and grows?",
+      "expected_answer": "Green plant",
+      "options": ["Green plant", "Plastic toy car", "Round pebble stone", "Wooden chair"],
+      "hint": "It has green leaves and grows in soil."
+    },
+    {
+      "question_id": "living_q2",
+      "concept": "Living and Non-Living Things (Montessori)",
+      "question": "Does a teddy bear or toy car need to eat breakfast?",
+      "expected_answer": "No, it is a non-living thing",
+      "options": [
+        "No, it is a non-living thing",
+        "Yes, it eats 5 bowls of cereal",
+        "Yes, it drinks juice",
+        "Yes, it grows as tall as a tree"
+      ],
+      "hint": "Toys do not eat real food."
+    }
+  ]
+}

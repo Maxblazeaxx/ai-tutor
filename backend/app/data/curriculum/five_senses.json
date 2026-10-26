@@ -1,0 +1,98 @@
+{
+  "subject": "Early Science & Sensory Learning",
+  "grade_level": 0,
+  "topic": "Early Childhood & Montessori",
+  "concept": "The Five Senses (Montessori)",
+  "keywords": ["five senses", "eyes", "ears", "nose", "tongue", "skin", "sight", "sound", "smell", "taste", "touch", "montessori", "kindergarten"],
+  "standard_explanation": "Human sensory perception is mediated by five primary specialized sensory modalities: vision (photoreceptors in the eyes), audition (mechanoreceptors in the inner ear cochlea), olfaction (chemoreceptors in the nasal mucosa), gustation (taste buds on the lingual papillae), and somatosensation (tactile, thermoreceptive, and mechanoreceptive nerve endings in the skin).",
+  "simplified_explanation": "We have five amazing superpowers to explore our world! 1. Eyes to see colorful butterflies. 2. Ears to hear birds singing. 3. Nose to smell sweet flowers. 4. Tongue to taste delicious strawberries. 5. Hands to touch and pet soft, fluffy puppies!",
+  "key_points": [
+    "Eyes help us SEE shapes, colors, and the bright sun.",
+    "Ears help us HEAR music, laughter, and bell chimes.",
+    "Nose helps us SMELL flowers and fresh food baking.",
+    "Tongue helps us TASTE sweet fruits and yummy food.",
+    "Hands and skin help us TOUCH and feel soft, warm, or cold things."
+  ],
+  "examples": [
+    "Looking at a rainbow with your eyes.",
+    "Listening to gentle raindrops with your ears.",
+    "Smelling sweet lavender flowers with your nose."
+  ],
+  "misconceptions": [
+    "Misconception: We only feel touch with our fingers. Fact: Skin all over your body can feel warm sun or gentle breeze.",
+    "Misconception: You can taste food without smelling it. Fact: Smell and taste work together as team superpowers to taste food."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Eyes to See (Sight)",
+      "description": "Two happy, blinking cartoon eyes looking at a colorful fluttering butterfly.",
+      "visual_elements": ["cartoon_eyes", "colorful_butterfly", "sparkle_sight"],
+      "animation_action": "senses_eyes_sight",
+      "caption": "Step 1: Eyes to SEE! We see bright colors and smiling faces.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Ears to Hear & Nose to Smell",
+      "description": "Friendly ears catching musical notes and a cute nose smelling a pink blooming flower.",
+      "visual_elements": ["musical_notes", "ear_sound", "pink_flower_smell"],
+      "animation_action": "senses_hear_smell",
+      "caption": "Step 2: Ears to HEAR music and Nose to SMELL sweet flowers!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Taste & Touch Hands",
+      "description": "A happy smile tasting a red strawberry and soft hands petting a fluffy white kitten.",
+      "visual_elements": ["strawberry_taste", "fluffy_kitten", "warm_touch"],
+      "animation_action": "senses_taste_touch",
+      "caption": "Step 3: Tongue to TASTE yummy treats and Hands to TOUCH soft puppies!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "See / Eyes",
+      "gloss": "SEE",
+      "description": "V-handshape dominant index and middle finger point outward from eyes.",
+      "handshape": "V handshape pointing from eye outward",
+      "movement": "Move forward away from eyes",
+      "asset_placeholder": "sign_see.svg"
+    },
+    {
+      "term": "Hear / Ears",
+      "gloss": "HEAR",
+      "description": "Dominant index finger points to or taps the ear lobe gently.",
+      "handshape": "Index finger extended",
+      "movement": "Gentle tap on ear lobe",
+      "asset_placeholder": "sign_hear.svg"
+    },
+    {
+      "term": "Touch / Feel",
+      "gloss": "TOUCH-FEEL",
+      "description": "Middle finger of open hand gently strokes the back of the other hand.",
+      "handshape": "Bent middle finger (feeling handshape)",
+      "movement": "Gentle stroke across non-dominant hand",
+      "asset_placeholder": "sign_touch.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "sense_q1",
+      "concept": "The Five Senses (Montessori)",
+      "question": "Which body part do we use to see colorful rainbows?",
+      "expected_answer": "Eyes",
+      "options": ["Eyes", "Elbows", "Knees", "Shoes"],
+      "hint": "They blink and let you look at books."
+    },
+    {
+      "question_id": "sense_q2",
+      "concept": "The Five Senses (Montessori)",
+      "question": "Which superpower sense lets you smell a fragrant rose flower?",
+      "expected_answer": "Nose",
+      "options": ["Nose", "Toes", "Ears", "Hair"],
+      "hint": "It sits right in the middle of your face."
+    }
+  ]
+}

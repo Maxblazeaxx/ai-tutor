@@ -1,0 +1,106 @@
+{
+  "subject": "Physics",
+  "grade_level": 4,
+  "topic": "Forces & Motion",
+  "concept": "Gravity and Falling Objects",
+  "keywords": ["gravity", "falling", "pull", "earth", "force", "weight", "downward"],
+  "standard_explanation": "Gravity is an invisible fundamental pulling force that draws objects toward the center of the Earth. Any object dropped from a height accelerates downward because Earth's mass attracts it. Gravity keeps our feet on the ground and causes falling objects to head toward Earth.",
+  "simplified_explanation": "Gravity is Earth's giant invisible hug! When you let go of a ball or an apple, gravity gently catches it and pulls it down to the ground. Without gravity, everything would float away into space!",
+  "key_points": [
+    "Gravity is an invisible pulling force from Earth.",
+    "When you drop an object, gravity pulls it straight down.",
+    "Gravity keeps people, oceans, and trees safely on the ground.",
+    "Heavy things and light things both fall toward Earth."
+  ],
+  "examples": [
+    "Dropping a basketball and watching it bounce back up and down to the floor.",
+    "A leaf tumbling gently from a high tree down to the grass."
+  ],
+  "misconceptions": [
+    "Misconception: Heavy objects always fall much faster than light objects in a vacuum. Fact: Gravity pulls all objects downward with the same acceleration when there is no air resistance.",
+    "Misconception: There is no gravity when you jump. Fact: Gravity is what brings you safely back down every time you jump."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Apple on the Tree Branch",
+      "description": "A bright red apple rests quietly on a tree branch.",
+      "visual_elements": ["tree", "apple", "sky"],
+      "animation_action": "apple_on_tree",
+      "caption": "Step 1: The apple rests high up on the tree branch.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Gravity Pulls Downward",
+      "description": "The apple snaps free and drops straight toward the grass due to Earth's invisible gravity.",
+      "visual_elements": ["falling_apple", "gravity_arrows", "grass"],
+      "animation_action": "apple_falling",
+      "caption": "Step 2: Earth's invisible gravity pulls the apple down to the ground!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Safe on the Earth",
+      "description": "The apple rests happily on the grass, held firmly by Earth's gravity.",
+      "visual_elements": ["apple_ground", "grass", "smile"],
+      "animation_action": "apple_on_ground",
+      "caption": "Step 3: Gravity holds everything safely on Earth's surface.",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Gravity",
+      "gloss": "EARTH PULL-DOWN",
+      "description": "One hand flat representing the ground, the other hand pulls downward toward it.",
+      "handshape": "Flat non-dominant hand, bent 5 dominant pulling down",
+      "movement": "Pull downward toward palm",
+      "asset_placeholder": "sign_gravity.svg"
+    },
+    {
+      "term": "Fall",
+      "gloss": "FALL-DOWN",
+      "description": "V-handshape representing legs falls down flat onto horizontal palm.",
+      "handshape": "V handshape to flat hand",
+      "movement": "Flip and land on palm",
+      "asset_placeholder": "sign_fall.svg"
+    },
+    {
+      "term": "Ground / Earth",
+      "gloss": "EARTH",
+      "description": "Thumb and middle finger grasp wrist and rotate slightly, showing our planet.",
+      "handshape": "Open hand over bent fingers",
+      "movement": "Gentle circular pivot",
+      "asset_placeholder": "sign_earth.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "gravity_q1",
+      "concept": "Gravity and Falling Objects",
+      "question": "What does gravity do when you drop a ball?",
+      "expected_answer": "Pulls it down to the ground",
+      "options": [
+        "Pulls it down to the ground",
+        "Makes it fly up to the Sun",
+        "Turns the ball into water",
+        "Makes it vanish forever"
+      ],
+      "hint": "Think about what happens when you drop something from your hand."
+    },
+    {
+      "question_id": "gravity_q2",
+      "concept": "Gravity and Falling Objects",
+      "question": "Why don't we float away into outer space?",
+      "expected_answer": "Gravity holds us on Earth",
+      "options": [
+        "Gravity holds us on Earth",
+        "We have sticky shoes",
+        "The wind pushes us down",
+        "The clouds catch us"
+      ],
+      "hint": "It is Earth's invisible pulling force."
+    }
+  ]
+}

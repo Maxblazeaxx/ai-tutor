@@ -1,0 +1,97 @@
+{
+  "subject": "Environmental Science & Biology",
+  "grade_level": 5,
+  "topic": "Ecology & Life Science",
+  "concept": "Food Chains and Ecosystems (CBSE Grade 5)",
+  "keywords": ["food chain", "producer", "consumer", "herbivore", "carnivore", "sun", "plants", "deer", "lion", "cbse grade 5"],
+  "standard_explanation": "A food chain represents the linear trophic pathway through which chemical nutrient energy transfers from primary producers (autotrophic photosynthetic plants) to primary consumers (herbivores), secondary consumers (carnivores/omnivores), and tertiary apex predators. Decomposers recycle organic matter back into the soil, sustaining ecological equilibrium.",
+  "simplified_explanation": "Energy travels in a wonderful circle of nature! The Sun shines down on green grass (the Producer). A gentle deer eats the sweet grass (Herbivore). A brave lion eats to stay strong (Carnivore). When leaves fall to the ground, tiny helpers turn them into rich soil so new grass can grow! That is the circle of life!",
+  "key_points": [
+    "The Sun is the primary source of all energy on Earth.",
+    "Producers (green plants) make their own food using sunlight.",
+    "Herbivores (plant-eaters like rabbits and deer) eat the green plants.",
+    "Carnivores (meat-eaters like lions and eagles) eat other animals.",
+    "A food chain shows who eats whom in nature."
+  ],
+  "examples": [
+    "Sun → Green Grass → Grasshopper → Frog → Snake → Hawk.",
+    "Sunlight → Pond Algae → Small Fish → Big Fish → Bear."
+  ],
+  "misconceptions": [
+    "Misconception: Top predators don't depend on plants. Fact: If plants disappear, herbivores starve, and carnivores have no food.",
+    "Misconception: A food chain only goes one way. Fact: In real nature, multiple food chains connect into a balanced food web."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Sun Gives Energy to Plants (Producers)",
+      "description": "Warm yellow sun shines down, causing lush green grass and yellow wildflowers to sprout happily.",
+      "visual_elements": ["warm_sun", "growing_grass", "energy_arrow"],
+      "animation_action": "foodchain_sun_grass",
+      "caption": "Step 1: The Sun provides energy so green grass can grow (Producers)!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "A Gentle Deer Eats Grass (Herbivore)",
+      "description": "A graceful brown deer munches on the green grass, receiving energy to leap and run.",
+      "visual_elements": ["gentle_deer", "eating_grass", "energy_transfer"],
+      "animation_action": "foodchain_deer_eats",
+      "caption": "Step 2: A deer eats the sweet green grass to get energy (Herbivore)!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "The Lion & The Circle of Life",
+      "description": "A golden-maned lion rests under a shade tree as energy flows in a balanced circle of nature.",
+      "visual_elements": ["golden_lion", "savannah_tree", "circle_arrows"],
+      "animation_action": "foodchain_lion_circle",
+      "caption": "Step 3: Energy flows from Sun → Grass → Deer → Lion! A balanced food chain!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Food / Eat",
+      "gloss": "EAT-FOOD",
+      "description": "Flattened O-handshape fingertips tap mouth repeatedly.",
+      "handshape": "Flattened O-handshape",
+      "movement": "Double tap to lips",
+      "asset_placeholder": "sign_eat.svg"
+    },
+    {
+      "term": "Animal",
+      "gloss": "ANIMAL",
+      "description": "Fingertips of bent hands rest near chest, palms pivot gently inward and outward mimicking breathing.",
+      "handshape": "Bent hands near chest",
+      "movement": "Gentle rhythmic pivoting motion",
+      "asset_placeholder": "sign_animal.svg"
+    },
+    {
+      "term": "Chain / Connect",
+      "gloss": "CHAIN-LINK",
+      "description": "Index finger and thumb of both hands link through each other like chain links.",
+      "handshape": "Interlocking F/O rings",
+      "movement": "Link together and move side to side",
+      "asset_placeholder": "sign_chain.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "food_q1",
+      "concept": "Food Chains and Ecosystems (CBSE Grade 5)",
+      "question": "What is the primary source of energy that starts every food chain on Earth?",
+      "expected_answer": "The Sun",
+      "options": ["The Sun", "A flashlight", "The Moon", "A camp stove"],
+      "hint": "It shines in the sky during the daytime."
+    },
+    {
+      "question_id": "food_q2",
+      "concept": "Food Chains and Ecosystems (CBSE Grade 5)",
+      "question": "What is an animal that eats only green plants called?",
+      "expected_answer": "Herbivore",
+      "options": ["Herbivore", "Carnivore", "Robot", "Rock"],
+      "hint": "Think of 'herb' which means green plant."
+    }
+  ]
+}

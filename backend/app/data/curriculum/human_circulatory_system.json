@@ -1,0 +1,96 @@
+{
+  "subject": "Biology",
+  "grade_level": 10,
+  "topic": "Life Processes",
+  "concept": "Human Circulatory System (CBSE Grade 10)",
+  "keywords": ["circulatory system", "heart", "blood", "arteries", "veins", "double circulation", "oxygen", "cbse grade 10", "biology"],
+  "standard_explanation": "The human circulatory system employs double circulation to transport oxygenated and deoxygenated blood through pulmonary and systemic circuits. The muscular four-chambered heart (right and left atria, right and left ventricles) pumps deoxygenated blood via the pulmonary artery to the lungs for gaseous exchange, while oxygenated blood returns via the pulmonary vein and is propelled through the aorta to somatic tissues under arterial pressure.",
+  "simplified_explanation": "Your heart is like a tireless superhero pump right inside your chest! It has 4 rooms (chambers). The blue blood needs fresh air, so the heart pumps it to the lungs. In the lungs, the blood takes a deep breath of oxygen and turns bright red! Then the heart pumps this fresh red blood all the way down to your toes and up to your brain to give you energy to play!",
+  "key_points": [
+    "The heart is a 4-chambered muscular pump (two atria on top, two ventricles below).",
+    "Arteries carry oxygen-rich red blood away from the heart to your body.",
+    "Veins carry deoxygenated blue blood back toward the heart.",
+    "Double circulation means blood passes through the heart twice in one complete cycle."
+  ],
+  "examples": [
+    "Feeling your pulse thumping gently on your wrist after running a race.",
+    "Lungs exchanging carbon dioxide for oxygen when taking a deep breath of fresh mountain air."
+  ],
+  "misconceptions": [
+    "Misconception: Your blood is actually bright blue inside your veins. Fact: Human blood is always red; it appears blueish through skin due to light wavelength scattering.",
+    "Misconception: The heart stops beating while you sleep. Fact: The heart pumps continuously 24 hours a day without taking a break."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "The Four Chambers of the Heart",
+      "description": "An anatomical illustration showing the four chambers of the heart (Right Atrium, Right Ventricle, Left Atrium, Left Ventricle).",
+      "visual_elements": ["heart_chambers", "atria", "ventricles"],
+      "animation_action": "circulatory_four_chambers",
+      "caption": "Step 1: The heart has 4 rooms: 2 atria on top and 2 strong ventricles below.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Oxygen Exchange in the Lungs",
+      "description": "Blue blood travels to the spongy pink lungs, absorbs clean oxygen bubbles, and turns bright radiant red.",
+      "visual_elements": ["lungs", "oxygen_bubbles", "blood_turns_red"],
+      "animation_action": "circulatory_lung_oxygen",
+      "caption": "Step 2: Blood visits the lungs, takes in fresh oxygen, and turns bright red!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Pumping Oxygen to the Whole Body",
+      "description": "The left ventricle contracts with strong pulses, sending oxygen-rich red blood rushing through the aorta to body organs.",
+      "visual_elements": ["heart_pulse", "red_arteries", "body_circulation"],
+      "animation_action": "circulatory_body_pulse",
+      "caption": "Step 3: The powerful heart pumps oxygen-rich blood to your brain, arms, and legs!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Heart",
+      "gloss": "HEART-BEAT",
+      "description": "Middle finger gently taps left chest over heart twice with pulsing rhythm.",
+      "handshape": "Bent middle finger (feeling handshape)",
+      "movement": "Gentle rhythmic double tap on chest",
+      "asset_placeholder": "sign_heart.svg"
+    },
+    {
+      "term": "Blood",
+      "gloss": "BLOOD-FLOW",
+      "description": "Dominant hand touches red lip, then flutters fingers downward over non-dominant hand showing flowing red liquid.",
+      "handshape": "Index finger to chin, then open 5 flowing down",
+      "movement": "Touch lip then downward flowing motion",
+      "asset_placeholder": "sign_blood.svg"
+    },
+    {
+      "term": "Breathe / Lungs",
+      "gloss": "BREATHE-EXPAND",
+      "description": "Both open flat palms held on chest expand outward on inhale and contract on exhale.",
+      "handshape": "Open flat hands on chest",
+      "movement": "Move outward and inward mimicking respiration",
+      "asset_placeholder": "sign_lungs.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "circ_q1",
+      "concept": "Human Circulatory System (CBSE Grade 10)",
+      "question": "How many chambers does the human heart have?",
+      "expected_answer": "4 chambers",
+      "options": ["4 chambers", "2 chambers", "6 chambers", "1 chamber"],
+      "hint": "Two atria at the top, two ventricles at the bottom."
+    },
+    {
+      "question_id": "circ_q2",
+      "concept": "Human Circulatory System (CBSE Grade 10)",
+      "question": "Which blood vessels carry oxygen-rich blood away from the heart to the body?",
+      "expected_answer": "Arteries",
+      "options": ["Arteries", "Veins", "Stomach", "Bones"],
+      "hint": "Remember 'A' for Arteries carrying blood Away."
+    }
+  ]
+}

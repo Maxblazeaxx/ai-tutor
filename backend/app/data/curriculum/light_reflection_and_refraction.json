@@ -1,0 +1,103 @@
+{
+  "subject": "Physics",
+  "grade_level": 10,
+  "topic": "Optics",
+  "concept": "Light: Reflection and Refraction (CBSE Grade 10)",
+  "keywords": ["light", "reflection", "refraction", "lenses", "convex", "concave", "mirrors", "focal length", "snells law", "cbse grade 10", "physics"],
+  "standard_explanation": "Geometric optics explores the rectilinear propagation, reflection, and refraction of light waves. The Law of Reflection specifies that the angle of incidence equals the angle of reflection (θi = θr). Refraction describes the bending of light at the interface between media of differing optical densities, governed by Snell's Law (n₁ sin θ₁ = n₂ sin θ₂). Convex lenses converge incident parallel rays to a real focus (positive focal length), while concave lenses diverge rays outward.",
+  "simplified_explanation": "Light loves to travel in straight laser lines! When light hits a shiny mirror, BOUNCE! It bounces straight back (Reflection), like throwing a rubber ball against a wall. When light enters clear glass or water, it slows down and gently bends (Refraction). A curved magnifying glass (Convex Lens) bends sunlight together to a tiny bright point!",
+  "key_points": [
+    "Reflection: Light bounces off smooth shiny surfaces like mirrors (Angle in = Angle out).",
+    "Refraction: Light bends when passing from air into water or glass because its speed changes.",
+    "Convex Lens (bulging outwards): Converges light rays together to a sharp focal point.",
+    "Concave Lens (curving inwards): Spreads light rays apart outwards.",
+    "A rainbow forms because raindrops refract and separate sunlight into 7 colors!"
+  ],
+  "examples": [
+    "Looking in your bathroom mirror in the morning shows reflection.",
+    "A pencil in a glass of water looking bent or broken at the surface shows refraction.",
+    "Magnifying glasses and eyeglasses using curved lenses to help us read clearly."
+  ],
+  "misconceptions": [
+    "Misconception: Light bends because it gets tired. Fact: Light bends because it travels slower in dense glass or water than in air.",
+    "Misconception: Mirrors create a second you inside the wall. Fact: The mirror simply redirects light rays into your eyes."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Straight Laser Beam & Mirror Bounce (Reflection)",
+      "description": "A sharp golden light ray strikes a polished silver flat mirror and bounces cleanly off at the exact same angle.",
+      "visual_elements": ["light_ray", "flat_mirror", "bounce_angle"],
+      "animation_action": "optics_mirror_reflection",
+      "caption": "Step 1: Reflection! Light bounces off a mirror like a rubber ball!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 2,
+      "title": "Bending Ray in Water (Refraction)",
+      "description": "A straight light beam enters a glass tank of blue water and noticeably bends downward at the water surface.",
+      "visual_elements": ["water_tank", "bent_ray", "refraction_angle"],
+      "animation_action": "optics_water_refraction",
+      "caption": "Step 2: Refraction! Light slows down in water and gently bends its path!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Convex Lens Focuses Rays",
+      "description": "Parallel incoming beams pass through a clear convex lens and converge to a brilliant shining focal point (F).",
+      "visual_elements": ["convex_lens", "converging_rays", "focal_point"],
+      "animation_action": "optics_convex_focus",
+      "caption": "Step 3: Convex Lens! The curved glass bends rays together to a sharp focus!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Light",
+      "gloss": "LIGHT-SHINE",
+      "description": "Dominant hand starts pinched under chin and expands downward and outward into shining 5-handshape.",
+      "handshape": "Flattened O to open 5",
+      "movement": "Downward radiating burst",
+      "asset_placeholder": "sign_light.svg"
+    },
+    {
+      "term": "Mirror / Reflection",
+      "gloss": "MIRROR-LOOK",
+      "description": "Dominant open hand held in front of face pivots slightly like checking one's reflection in a compact mirror.",
+      "handshape": "Open flat palm facing face",
+      "movement": "Gentle wrist pivot near cheek",
+      "asset_placeholder": "sign_mirror.svg"
+    },
+    {
+      "term": "Bend / Refract",
+      "gloss": "BEND-PATH",
+      "description": "Index finger points straight forward, then sharply bends 45 degrees downward at the second knuckle.",
+      "handshape": "Index finger bending",
+      "movement": "Straight trajectory then sharp angled bend",
+      "asset_placeholder": "sign_bend.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "optics_q1",
+      "concept": "Light: Reflection and Refraction (CBSE Grade 10)",
+      "question": "What is the phenomenon called when light bounces off a shiny flat mirror?",
+      "expected_answer": "Reflection",
+      "options": ["Reflection", "Refraction", "Photosynthesis", "Digestion"],
+      "hint": "Like looking at yourself in the mirror."
+    },
+    {
+      "question_id": "optics_q2",
+      "concept": "Light: Reflection and Refraction (CBSE Grade 10)",
+      "question": "Why does a straight pencil look bent when placed in a glass of water?",
+      "expected_answer": "Refraction bends the light as it enters water",
+      "options": [
+        "Refraction bends the light as it enters water",
+        "The water broke the wooden pencil in half",
+        "The pencil melted inside the glass",
+        "Mirrors inside the glass play tricks"
+      ],
+      "hint": "Light slows down and bends when changing media."
+    }
+  ]
+}

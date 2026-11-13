@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { BookOpen, Film, Hand, Volume2, Sparkles, CheckCircle, GitBranch } from "lucide-react";
+import { BookOpen, Film, Hand, Volume2, Sparkles, CheckCircle, GitBranch, Zap } from "lucide-react";
 import MicroAnimationPlayer from "./MicroAnimationPlayer";
+import DynamicSVGPlayer from "./DynamicSVGPlayer";
 import SignSupportViewer from "./SignSupportViewer";
 import ConceptMindMap from "./ConceptMindMap";
+
 
 export default function LessonDisplay({
   lesson,
@@ -13,6 +15,8 @@ export default function LessonDisplay({
   const [activeTab, setActiveTab] = useState(
     learnerProfile?.learner_type === "deaf" ? "sign" : "animation"
   );
+  const [animationMode, setAnimationMode] = useState("ai_dynamic"); // "ai_dynamic" vs "classic_curriculum"
+
 
   if (!lesson) return null;
 
@@ -159,12 +163,135 @@ export default function LessonDisplay({
 
       {/* Modality View Display Area */}
       {activeTab === "animation" && (
-        <MicroAnimationPlayer
-          scenes={lesson.visual_scenes}
-          concept={lesson.concept}
-          autoPlay={isDownSyndrome}
-        />
+        <div className="space-y-3">
+          {/* Engine Selector Toggle */}
+          <div className="flex items-center justify-between px-4 py-2.5 bg-slate-100 rounded-xl border border-slate-200">
+            <div className="flex items-center gap-2">
+              <span className="text-xs font-bold text-slate-700">Animation Engine:</span>
+              <div className="flex bg-white rounded-lg p-0.5 border border-slate-200 shadow-xs">
+                <button
+                  onClick={() => setAnimationMode("ai_dynamic")}
+                  className={`px-3 py-1 rounded-md text-xs font-bold transition flex items-center gap-1.5 ${
+                    animationMode === "ai_dynamic"
+                      ? "bg-purple-600 text-white shadow-xs"
+                      : "text-slate-600 hover:text-slate-900"
+                  }`}
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-purple-200" />
+                  ✨ AI Dynamic SVG (New)
+                </button>
+                <button
+                  onClick={() => setAnimationMode("classic_curriculum")}
+                  className={`px-3 py-1 rounded-md text-xs font-bold transition flex items-center gap-1.5 ${
+                    animationMode === "classic_curriculum"
+                      ? "bg-slate-800 text-white shadow-xs"
+                      : "text-slate-600 hover:text-slate-900"
+                  }`}
+                >
+                  <Film className="w-3.5 h-3.5" />
+                  Classic Curated
+                </button>
+              </div>
+            </div>
+
+            <span className="text-[11px] text-slate-500 hidden sm:inline">
+              {animationMode === "ai_dynamic"
+                ? "🤖 Rendered via DynamicSVGPlayer with real-time keyframes"
+                : "📐 Rendered via verified curriculum static paths"}
+            </span>
+          </div>
+
+          {animationMode === "ai_dynamic" ? (
+            <DynamicSVGPlayer
+              scenes={
+                lesson.ai_animated_scenes && lesson.ai_animated_scenes.length > 0
+                  ? lesson.ai_animated_scenes
+                  : (lesson.visual_scenes || []).map((sc, i) => ({
+                      scene_index: sc.scene || (i + 1),
+                      title: sc.title || `Stage ${i + 1}`,
+                      caption: sc.caption || sc.description || "",
+                      duration_ms: (sc.duration_seconds || 4) * 1000,
+                      canvas_width: 800,
+                      canvas_height: 400,
+                      background_color: "#0f172a",
+                      narration_text: sc.caption || sc.description || "",
+                      accessibility_description: sc.description || "",
+                      elements: [
+                        {
+                          id: `bg_glow_${i}`,
+                          type: "circle",
+                          x: 400,
+                          y: 200,
+                          r: 140,
+                          fill: i % 2 === 0 ? "#1e3a5f" : "#052e16",
+                          opacity: 0.6,
+                          keyframes: [
+                            { t_ms: 0, opacity: 0.2, scale: 0.6 },
+                            { t_ms: 2000, opacity: 0.6, scale: 1.0 }
+                          ]
+                        },
+                        {
+                          id: `core_elem_${i}`,
+                          type: "circle",
+                          x: 400,
+                          y: 190,
+                          r: 65,
+                          fill: i % 2 === 0 ? "#3b82f6" : "#10b981",
+                          stroke: "#ffffff",
+                          stroke_width: 3,
+                          keyframes: [
+                            { t_ms: 0, opacity: 0, scale: 0.4 },
+                            { t_ms: 1200, opacity: 1, scale: 1.0 }
+                          ]
+                        },
+                        {
+                          id: `action_arrow_${i}`,
+                          type: "arrow",
+                          x1: 220,
+                          y1: 190,
+                          x2: 580,
+                          y2: 190,
+                          fill: "#fbbf24",
+                          stroke: "#f59e0b",
+                          stroke_width: 4,
+                          label: sc.animation_action ? sc.animation_action.replace(/_/g, " ") : "transformation",
+                          keyframes: [
+                            { t_ms: 400, opacity: 0 },
+                            { t_ms: 1800, opacity: 1 }
+                          ]
+                        },
+                        {
+                          id: `title_text_${i}`,
+                          type: "text",
+                          x: 400,
+                          y: 310,
+                          text_content: sc.title || lesson.concept,
+                          fill: "#f8fafc",
+                          font_size: 20,
+                          font_weight: "bold",
+                          keyframes: [
+                            { t_ms: 0, opacity: 0 },
+                            { t_ms: 1500, opacity: 1 }
+                          ]
+                        }
+                      ]
+                    }))
+              }
+              concept={lesson.concept}
+              generationMethod={lesson.is_ai_generated ? "gemini_ai_animation" : "ai_interpolated"}
+              isHighContrast={isHighContrast}
+              autoPlay={isDownSyndrome}
+            />
+          ) : (
+            <MicroAnimationPlayer
+              scenes={lesson.visual_scenes}
+              concept={lesson.concept}
+              autoPlay={isDownSyndrome}
+            />
+          )}
+        </div>
       )}
+
 
       {activeTab === "sign" && (
         <SignSupportViewer

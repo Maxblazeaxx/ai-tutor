@@ -1,0 +1,91 @@
+{
+  "subject": "Mathematics",
+  "grade_level": 6,
+  "topic": "Integers and Number Line",
+  "concept": "Integers: Positive Numbers, Negative Numbers, and Zero",
+  "keywords": ["integers", "negative numbers", "positive numbers", "number line", "zero", "below zero", "math"],
+  "standard_explanation": "Integers comprise the set of whole numbers and their negative counterparts: {..., -3, -2, -1, 0, 1, 2, 3, ...}. On a horizontal Cartesian number line, positive integers lie strictly to the right of the central origin zero, while negative integers lie to the left. The magnitude of a negative number increases as its numerical value becomes more negative, representing quantities below a defined baseline such as sub-zero temperatures, financial debt, or subterranean elevation.",
+  "simplified_explanation": "Numbers can tell us if we are above or below ground! Imagine a tall building with a ground floor called 0. Going upstairs gives positive floors like +1, +2, +3. Going down to the basement parking gives negative floors like -1, -2, -3! Both sides balance evenly around 0!",
+  "key_points": [
+    "Positive numbers (+1, +2, +3) are greater than zero and sit to the right on a number line.",
+    "Zero (0) is in the exact center and is neither positive nor negative.",
+    "Negative numbers (-1, -2, -3) are less than zero and sit to the left on a number line.",
+    "Moving right on the number line increases value; moving left decreases value.",
+    "-5 is smaller than -2 because it is further to the left from zero."
+  ],
+  "examples": [
+    "Winter temperature at high mountains reaching -5 degrees Celsius is below freezing zero.",
+    "A submarine diving 50 meters below sea level is at an elevation of -50 meters."
+  ],
+  "misconceptions": [
+    "Misconception: -10 is bigger than -2 because 10 is bigger than 2. Fact: -10 is much colder and smaller because it is further left of zero.",
+    "Misconception: Zero is a positive number. Fact: Zero is completely neutral: neither positive nor negative."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Drawing the Horizontal Number Line",
+      "description": "A clean straight horizontal line drawn with tick marks, placing a shining number 0 right at the center origin.",
+      "visual_elements": ["number_line", "center_zero", "origin_marker"],
+      "animation_action": "trig_hypotenuse_ratio",
+      "caption": "Step 1: Here is a number line with neutral 0 sitting right in the center.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Positive Numbers Marching to the Right",
+      "description": "Green numbers +1, +2, +3, +4 step forward toward the right into sunny warm territory.",
+      "visual_elements": ["positive_ticks", "green_numbers", "right_arrow"],
+      "animation_action": "air_thrust_forward",
+      "caption": "Step 2: Numbers to the right are positive (+1, +2, +3) and get bigger as you go right.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Negative Numbers Stepping Below Zero to the Left",
+      "description": "Icy blue numbers -1, -2, -3 step out to the left into cold sub-zero territory.",
+      "visual_elements": ["negative_ticks", "blue_numbers", "left_arrow", "sub_zero_glow"],
+      "animation_action": "matter_solid_ice",
+      "caption": "Step 3: Numbers to the left are negative (-1, -2, -3) and get smaller as you go left!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 4,
+      "title": "Balanced Integer Continuum",
+      "description": "The complete number line in full perspective, glowing with positive warmth on the right and cool negative tones on the left.",
+      "visual_elements": ["full_number_line", "balanced_continuum", "symmetry_indicator"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "Step 4: All together, positive numbers, zero, and negative numbers form the integers!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Negative",
+      "gloss": "NEGATIVE-MINUS",
+      "description": "Index finger held horizontally acts like a minus sign moving horizontally leftward. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Horizontal 1-finger",
+      "movement": "Leftward straight stroke",
+      "asset_placeholder": "sign_negative.svg"
+    },
+    {
+      "term": "Positive",
+      "gloss": "POSITIVE-PLUS",
+      "description": "Both index fingers cross at right angles forming a '+' plus sign in front of the chest. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Crossed 1-fingers",
+      "movement": "Intersecting static cross",
+      "asset_placeholder": "sign_positive.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "math_g6_q1",
+      "concept": "Integers: Positive Numbers, Negative Numbers, and Zero",
+      "question": "Which of these numbers is smaller: -5 or -1?",
+      "expected_answer": "-5",
+      "options": ["-5", "-1", "They are equal", "0"],
+      "hint": "Remember: on the number line, numbers further to the left are smaller.",
+      "visual_cue": "negative_number_line"
+    }
+  ]
+}

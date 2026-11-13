@@ -1,0 +1,82 @@
+{
+  "subject": "Mathematics",
+  "grade_level": 3,
+  "topic": "Multiplication Tables",
+  "concept": "Multiplication as Repeated Equal Grouping",
+  "keywords": ["multiplication", "times", "equal groups", "repeated addition", "arrays", "product", "math"],
+  "standard_explanation": "Multiplication is one of the four fundamental arithmetic operations, formally defined as repeated addition of equal groups. For positive integers, calculating a × b corresponds to summing 'a' copies of 'b' (or vice versa due to commutativity). Geometric visualization as rectangular arrays of rows and columns illustrates both the distributive and commutative properties.",
+  "simplified_explanation": "Multiplying is just fast repeated adding of equal groups! If you have 3 bowls and put 4 yummy cookies in each bowl, you have 3 groups of 4 cookies. Count them by fours: 4, 8, 12! 3 times 4 equals 12 cookies!",
+  "key_points": [
+    "Multiplication means adding the same number multiple times (3 × 4 = 4 + 4 + 4).",
+    "The multiplication symbol (×) means 'groups of'.",
+    "The answer in multiplication is called the product.",
+    "Order doesn't change the answer: 3 × 4 = 12 and 4 × 3 = 12.",
+    "Any number multiplied by 1 stays the same (7 × 1 = 7); multiplied by 0 becomes 0."
+  ],
+  "examples": [
+    "3 boxes with 5 crayons each: 5 + 5 + 5 = 15 crayons (3 × 5 = 15).",
+    "4 cars with 4 wheels each: 4 × 4 = 16 shiny tires rolling down the road."
+  ],
+  "misconceptions": [
+    "Misconception: Multiplication is completely different from addition. Fact: Multiplication is simply a fast shortcut for adding equal-sized groups.",
+    "Misconception: Multiplying by zero gives the same number. Fact: Zero groups of anything is always zero (5 × 0 = 0)."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Three Empty Bowls Ready",
+      "description": "Three circular bowls arranged neatly in a row on a clean wooden table.",
+      "visual_elements": ["wooden_table", "three_bowls", "group_labels"],
+      "animation_action": "pizza_whole",
+      "caption": "Step 1: Here are 3 bowls waiting on the table.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Four Cookies in Every Bowl",
+      "description": "Four round chocolate chip cookies drop gently into each of the 3 bowls.",
+      "visual_elements": ["cookies_group_1", "cookies_group_2", "cookies_group_3"],
+      "animation_action": "pizza_quarter",
+      "caption": "Step 2: Put 4 cookies in each bowl: 4, then 4, then 4 more!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Equal Group Total: 3 × 4 = 12 Cookies",
+      "description": "All 12 cookies glow together as the multiplication equation '3 × 4 = 12' appears in bold golden letters.",
+      "visual_elements": ["all_twelve_cookies", "multiplication_equation", "sparkle_total"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "Step 3: 3 groups of 4 cookies make 12 cookies in total! 3 × 4 = 12!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Multiply",
+      "gloss": "MULTIPLY-CROSS",
+      "description": "Both V-hands cross each other at index and middle fingers like an 'X' multiplication sign. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "V-hands crossed",
+      "movement": "Crosswise intersecting contact",
+      "asset_placeholder": "sign_multiply.svg"
+    },
+    {
+      "term": "Group",
+      "gloss": "GROUP-TOGETHER",
+      "description": "Both curved C-hands start apart and arc inward to enclose an imaginary circular cluster. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Curved C-hands",
+      "movement": "Enclosing circular gathering",
+      "asset_placeholder": "sign_group.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "math_g3_q1",
+      "concept": "Multiplication as Repeated Equal Grouping",
+      "question": "What is 3 groups of 4 cookies equal to?",
+      "expected_answer": "12 cookies",
+      "options": ["12 cookies", "7 cookies", "9 cookies", "15 cookies"],
+      "hint": "Add 4 three times: 4 + 4 + 4.",
+      "visual_cue": "three_groups_of_four"
+    }
+  ]
+}

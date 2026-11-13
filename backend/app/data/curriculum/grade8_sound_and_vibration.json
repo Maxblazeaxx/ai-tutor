@@ -1,0 +1,96 @@
+{
+  "subject": "Physics",
+  "grade_level": 8,
+  "topic": "Sound and Vibration",
+  "concept": "Sound Waves: Vibrations, Frequency, and Pitch",
+  "keywords": ["sound", "vibration", "frequency", "pitch", "amplitude", "tuning fork", "sound waves", "physics"],
+  "standard_explanation": "Sound is a mechanical longitudinal wave produced by oscillating vibrations of a medium (solid, liquid, or gas). As a vibrating object (such as a vocal cord, guitar string, or tuning fork) oscillates, it generates alternating compressions (high-pressure regions) and rarefactions (low-pressure regions) through particles in the medium. Frequency, measured in Hertz (Hz), determines the perceived pitch of the sound, while amplitude corresponds to sound loudness. Crucially, sound requires a physical material medium and cannot propagate through a vacuum.",
+  "simplified_explanation": "Every sound you hear starts with a wiggle called a vibration! When you pluck a guitar string, it wiggles back and forth very fast. The wiggling pushes the air like invisible bouncy ripples that travel into your ears, letting you hear music, laughter, and bird songs!",
+  "key_points": [
+    "Sound is produced by vibrating objects moving back and forth.",
+    "Sound travels through air, water, and solid walls, but CANNOT travel through empty space (vacuum).",
+    "Fast vibrations create a high-pitched squeak (like a tiny bird).",
+    "Slow vibrations create a deep low-pitched roar (like a big lion).",
+    "Bigger vibrations make louder sounds (amplitude), while smaller vibrations make quiet whispers."
+  ],
+  "examples": [
+    "Placing your fingertips gently against your throat while humming lets you physically feel your vocal cords vibrating.",
+    "Striking a metal tuning fork against a rubber pad and dipping its prongs into water makes water droplets splash everywhere from the vibrations."
+  ],
+  "misconceptions": [
+    "Misconception: Sound can travel through outer space. Fact: Space is an empty vacuum with no air molecules to vibrate, so space is completely silent.",
+    "Misconception: Pitch and loudness are identical. Fact: Pitch depends on how fast particles vibrate (frequency), while loudness depends on how strongly they vibrate (amplitude)."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Striking the Metal Tuning Fork",
+      "description": "A silver tuning fork is tapped, and its two metal prongs begin vibrating rapidly back and forth in motion blur.",
+      "visual_elements": ["tuning_fork", "vibrating_prongs", "motion_blur_lines"],
+      "animation_action": "air_thrust_forward",
+      "caption": "Step 1: Strike the tuning fork: the metal prongs vibrate back and forth very fast!",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Vibrations Push Air Ripples Forward",
+      "description": "The vibrating prongs push surrounding air molecules into visible concentric circular wave pulses that travel across the screen.",
+      "visual_elements": ["air_molecules", "compression_waves", "sound_ripples"],
+      "animation_action": "rayleigh_wave_ripples",
+      "caption": "Step 2: Vibrations push air molecules into traveling pressure waves!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "High Frequency vs Low Frequency Pitch",
+      "description": "Comparing tight, rapid blue waves (high bird pitch) with wide, gentle red waves (low bass rumble).",
+      "visual_elements": ["high_pitch_wave", "low_pitch_wave", "frequency_meter"],
+      "animation_action": "light_spectrum_prism",
+      "caption": "Step 3: Fast vibrations make high-pitched sounds; slow vibrations make deep low sounds.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 4,
+      "title": "Sound Reaches the Ear and Creates Hearing",
+      "description": "Sound wave ripples enter a human ear canal, gently vibrating the eardrum to create the sensation of music and voice.",
+      "visual_elements": ["ear_canal", "eardrum_vibration", "musical_notes"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "Step 4: The waves gently vibrate your eardrum, and you hear the wonderful sound!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Sound",
+      "gloss": "SOUND-HEAR-VIBRATE",
+      "description": "Index finger points near ear, then open hands pulse forward like radiating sound waves. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "1-finger at ear then open 5",
+      "movement": "Radiating forward wave pulse",
+      "asset_placeholder": "sign_sound.svg"
+    },
+    {
+      "term": "Vibrate",
+      "gloss": "VIBRATION-SHAKE",
+      "description": "Both open hands held palm down oscillate rapidly side to side with small trembling tremors. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Trembling flat hands",
+      "movement": "Rapid lateral oscillation",
+      "asset_placeholder": "sign_vibration.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "phys_g8_q1",
+      "concept": "Sound Waves: Vibrations, Frequency, and Pitch",
+      "question": "Can sound travel through an empty vacuum in outer space?",
+      "expected_answer": "No, sound needs a material medium like air or water",
+      "options": [
+        "No, sound needs a material medium like air or water",
+        "Yes, sound travels faster in a vacuum than anywhere else",
+        "Yes, but only if the sound is very loud",
+        "Yes, by bouncing off distant stars"
+      ],
+      "hint": "Sound needs physical air or liquid particles to bump into each other.",
+      "visual_cue": "vacuum_silence"
+    }
+  ]
+}

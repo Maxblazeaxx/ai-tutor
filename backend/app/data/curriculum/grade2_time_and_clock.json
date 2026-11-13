@@ -1,0 +1,82 @@
+{
+  "subject": "Mathematics",
+  "grade_level": 2,
+  "topic": "Time and Clock Reading",
+  "concept": "Telling Time on an Analog Clock (Hours and Minutes)",
+  "keywords": ["time", "clock", "hour hand", "minute hand", "analog", "twelve", "sixty minutes", "math"],
+  "standard_explanation": "An analog clock is a circular timekeeping instrument with a face graduated into twelve hour segments and sixty minute divisions. It uses two rotating pointers of different lengths: the shorter hour hand indicates the hour of the day (completing one rotation every 12 hours), while the longer minute hand indicates minutes elapsed in the current hour (completing one full 360-degree rotation every 60 minutes).",
+  "simplified_explanation": "A round clock face has two helpful pointers! The short hand is slow and tells us the hour. The long hand is fast and tells us the minutes. When the long hand points straight up at 12 and the short hand points at 3, it is 3 o'clock! Time for an afternoon snack!",
+  "key_points": [
+    "A clock face has numbers from 1 to 12 in a circular circle.",
+    "The short hand is the hour hand.",
+    "The long hand is the minute hand.",
+    "When the long hand points straight up to 12, it is an exact hour (o'clock).",
+    "There are 60 minutes in 1 complete hour."
+  ],
+  "examples": [
+    "When the short hand points at 9 and the long hand points at 12, the clock reads 9:00 (school start time).",
+    "When both hands point straight up together at 12 in the middle of the day, it is 12:00 noon (lunchtime!)."
+  ],
+  "misconceptions": [
+    "Misconception: Both hands move at the same speed. Fact: The minute hand travels twelve times faster than the hour hand.",
+    "Misconception: The long hand tells the hour. Fact: The short hand tells the hour; the long hand counts the minutes."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Meeting the Round Clock Face",
+      "description": "A cheerful circular blue clock face with clear black numbers from 1 to 12 positioned neatly along its circumference.",
+      "visual_elements": ["clock_face", "numbers_circle", "center_pivot"],
+      "animation_action": "shape_circle",
+      "caption": "Step 1: Look at the round clock face with numbers 1 to 12 spaced around it.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Short Hand and Long Hand",
+      "description": "A short red hour hand appears pointing to number 3, and a long blue minute hand points straight up to 12.",
+      "visual_elements": ["hour_hand_short", "minute_hand_long", "clock_center"],
+      "animation_action": "trig_triangle_parts",
+      "caption": "Step 2: The short red hand shows the hour. The long blue hand shows the minutes.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Reading 3:00 O'Clock",
+      "description": "The clock chimes pleasantly as a golden banner flashes 3:00 O'Clock with warm glowing rays.",
+      "visual_elements": ["clock_three_oclock", "chime_waves", "time_banner"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "Step 3: Long hand on 12 and short hand on 3 means it is exactly 3 o'clock!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Time",
+      "gloss": "TIME-CLOCK",
+      "description": "Index finger taps the wrist where a watch is worn twice. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Index finger pointing to wrist",
+      "movement": "Double gentle tap at wrist",
+      "asset_placeholder": "sign_time.svg"
+    },
+    {
+      "term": "Hour",
+      "gloss": "HOUR-FULL-CIRCLE",
+      "description": "Right index finger makes a complete circle around the left open palm face. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "1-finger circling flat palm",
+      "movement": "Complete 360 rotation",
+      "asset_placeholder": "sign_hour.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "math_g2_q1",
+      "concept": "Telling Time on an Analog Clock (Hours and Minutes)",
+      "question": "Which hand on an analog clock points to the hour?",
+      "expected_answer": "The short hand",
+      "options": ["The short hand", "The long hand", "The tiny battery screw", "The outer wooden frame"],
+      "hint": "The shorter pointer moves slowly to show the hour.",
+      "visual_cue": "short_hour_hand"
+    }
+  ]
+}

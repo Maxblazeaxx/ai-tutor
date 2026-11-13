@@ -22,18 +22,27 @@ export default function TopicSelector({ onSearch, isSearching, topics = [] }) {
       { name: "Living and Non-Living Things (Montessori)", label: "🦋 Living & Non-Living", color: "bg-emerald-50 text-emerald-900 border-emerald-200" }
     ],
     primary: [
-      { name: "Photosynthesis", label: "🌱 Photosynthesis (Grade 5)", color: "bg-emerald-50 text-emerald-900 border-emerald-200" },
-      { name: "Water Cycle", label: "🌧️ Water Cycle (Grade 4)", color: "bg-sky-50 text-sky-900 border-sky-200" },
+      { name: "Addition and Putting Numbers Together", label: "➕ Addition & Groups (Grade 1)", color: "bg-blue-50 text-blue-900 border-blue-200" },
+      { name: "Plant Parts: Roots, Stem, Leaves, and Flower", label: "🌿 Parts of Plant (Grade 1)", color: "bg-emerald-50 text-emerald-900 border-emerald-200" },
+      { name: "Animals and Their Homes (Land, Water, and Air)", label: "🐾 Animal Habitats (Grade 2)", color: "bg-amber-50 text-amber-900 border-amber-200" },
+      { name: "Telling Time on an Analog Clock (Hours and Minutes)", label: "⏰ Telling Time (Grade 2)", color: "bg-purple-50 text-purple-900 border-purple-200" },
+      { name: "Multiplication as Repeated Equal Grouping", label: "✖️ Multiplication 3×4 (Grade 3)", color: "bg-rose-50 text-rose-900 border-rose-200" },
       { name: "Fractions (Halves and Quarters)", label: "🍕 Fractions 1/2 & 1/4 (Grade 3)", color: "bg-orange-50 text-orange-900 border-orange-200" },
-      { name: "States of Matter: Solid, Liquid, and Gas", label: "🧊 States of Matter (Grade 4-5)", color: "bg-cyan-50 text-cyan-900 border-cyan-200" },
+      { name: "Water Cycle", label: "🌧️ Water Cycle (Grade 4)", color: "bg-sky-50 text-sky-900 border-sky-200" },
       { name: "Solar System", label: "🪐 Solar System & Earth (Grade 4)", color: "bg-indigo-50 text-indigo-900 border-indigo-200" },
       { name: "Gravity and Falling Objects", label: "🍏 Gravity & Falling (Grade 4)", color: "bg-teal-50 text-teal-900 border-teal-200" },
+      { name: "States of Matter: Solid, Liquid, and Gas", label: "🧊 States of Matter (Grade 4-5)", color: "bg-cyan-50 text-cyan-900 border-cyan-200" },
+      { name: "Photosynthesis", label: "🌱 Photosynthesis (Grade 5)", color: "bg-emerald-50 text-emerald-900 border-emerald-200" },
       { name: "Food Chains and Ecosystems (Primary Science)", label: "🦉 Food Chains & Ecology (Grade 5)", color: "bg-amber-50 text-amber-900 border-amber-200" }
     ],
     middle: [
+      { name: "Integers: Positive Numbers, Negative Numbers, and Zero", label: "🔢 Integers & Line (Grade 6)", color: "bg-cyan-50 text-cyan-900 border-cyan-200" },
       { name: "Magnets and Magnetic Poles (CBSE Grade 6)", label: "🧲 Magnets & Poles (Grade 6)", color: "bg-rose-50 text-rose-900 border-rose-200" },
-      { name: "Acids, Bases, and Salts (CBSE Grade 7)", label: "🧪 Acids, Bases & Litmus (Grade 7)", color: "bg-purple-50 text-purple-900 border-purple-200" }
+      { name: "Simple Algebraic Equations and Unknown Variables", label: "⚖️ Simple Algebra x+5=12 (Grade 7)", color: "bg-amber-50 text-amber-900 border-amber-200" },
+      { name: "Acids, Bases, and Salts (CBSE Grade 7)", label: "🧪 Acids, Bases & Litmus (Grade 7)", color: "bg-purple-50 text-purple-900 border-purple-200" },
+      { name: "Sound Waves: Vibrations, Frequency, and Pitch", label: "🔊 Sound & Vibrations (Grade 8)", color: "bg-indigo-50 text-indigo-900 border-indigo-200" }
     ],
+
     secondary: [
       { name: "Human Circulatory System (CBSE Grade 10)", label: "❤️ Circulatory System (Grade 10)", color: "bg-red-50 text-red-900 border-red-200" },
       { name: "Newton's Laws of Motion", label: "🚀 Newton's Laws (Grade 9)", color: "bg-indigo-50 text-indigo-900 border-indigo-200" },

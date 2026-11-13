@@ -1,0 +1,82 @@
+{
+  "subject": "Environmental Studies",
+  "grade_level": 1,
+  "topic": "Parts of a Plant",
+  "concept": "Plant Parts: Roots, Stem, Leaves, and Flower",
+  "keywords": ["plant", "roots", "stem", "leaves", "flower", "fruit", "soil", "evs", "botany"],
+  "standard_explanation": "Plants are multicellular living organisms composed of specialized anatomical structures. Roots anchor the plant in soil and absorb water and dissolved nutrients. The stem provides mechanical support and transports fluids through vascular tissues. Leaves are the primary sites for photosynthesis, capturing solar radiation to produce energy. Flowers serve as reproductive organs designed for pollination, seed creation, and fruit development.",
+  "simplified_explanation": "Plants have helpful parts just like our bodies! Roots are like feet underground drinking water. The stem is like a strong spine standing tall. Green leaves make yummy food from sunshine, and pretty flowers make seeds for new plants!",
+  "key_points": [
+    "Roots grow down in the soil to hold the plant firm and drink water.",
+    "The stem stands tall and carries water up to every leaf.",
+    "Green leaves catch sunlight to prepare food.",
+    "Flowers are colorful and help make seeds and sweet fruits.",
+    "Plants need soil, water, fresh air, and warm sunlight to grow."
+  ],
+  "examples": [
+    "A carrot is actually a big, crunchy taproot that grows under the garden soil.",
+    "A sunflower stem stands tall to point its bright yellow petals toward the warm sun."
+  ],
+  "misconceptions": [
+    "Misconception: Roots are only for holding dirt. Fact: Roots drink water and minerals that keep the whole plant alive.",
+    "Misconception: Flowers are just decorations. Fact: Flowers make seeds that grow into brand new baby plants."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Roots Growing Deep in Soil",
+      "description": "Cross-section showing brown underground soil with strong white roots spreading out and drinking blue water droplets.",
+      "visual_elements": ["soil", "roots", "water_droplets"],
+      "animation_action": "water_up_roots",
+      "caption": "Step 1: Strong roots spread underground to drink water from the soil.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "The Stem Stands Tall and Strong",
+      "description": "A green stem rises above the soil like an elevator, carrying blue water up to the green leaves.",
+      "visual_elements": ["stem", "leaves", "water_flow"],
+      "animation_action": "sunlight_to_plant",
+      "caption": "Step 2: The stem stands tall like an elevator carrying water up to the leaves.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Leaves and Blossoming Flower",
+      "description": "Bright green leaves soak in golden sunshine while a vibrant yellow flower opens happily at the top.",
+      "visual_elements": ["leaves", "flower", "sunshine_rays"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "Step 3: Green leaves catch sunlight for food, and a colorful flower blooms at the top!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Root",
+      "gloss": "ROOTS-DOWN-SPREAD",
+      "description": "Fingers of one hand point downward and wiggle outwards like roots penetrating soil. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Curved 5-hand pointing down",
+      "movement": "Downward spreading wiggle",
+      "asset_placeholder": "sign_roots.svg"
+    },
+    {
+      "term": "Flower",
+      "gloss": "FLOWER-BLOOM",
+      "description": "Fingertips gathered at nose, then both hands open outwards like petals unfolding. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Flattened O opening to 5",
+      "movement": "Outward blooming gesture",
+      "asset_placeholder": "sign_flower.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "evs_g1_q1",
+      "concept": "Plant Parts: Roots, Stem, Leaves, and Flower",
+      "question": "Which plant part stays underground in the soil to drink water?",
+      "expected_answer": "Roots",
+      "options": ["Roots", "Flower", "Leaves", "Fruit"],
+      "hint": "Think of the plant's feet hidden beneath the dirt.",
+      "visual_cue": "underground_roots"
+    }
+  ]
+}

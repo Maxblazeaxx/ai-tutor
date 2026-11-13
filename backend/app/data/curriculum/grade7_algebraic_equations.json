@@ -1,0 +1,91 @@
+{
+  "subject": "Mathematics",
+  "grade_level": 7,
+  "topic": "Algebraic Expressions",
+  "concept": "Simple Algebraic Equations and Unknown Variables",
+  "keywords": ["algebra", "variables", "equations", "unknown x", "solve", "balance scale", "math"],
+  "standard_explanation": "An algebraic equation represents a mathematical statement affirming the equality of two expressions separated by an equal sign (=). It involves constants (fixed numerical values) and variables (alphabetic symbols like 'x' or 'y' representing unknown quantities). Solving a linear equation (e.g., x + 5 = 12) involves applying inverse arithmetic operations uniformly to both sides to isolate the variable, conceptually analogous to maintaining equilibrium on a two-pan balance scale.",
+  "simplified_explanation": "Algebra is like a fun detective mystery with a secret surprise box called 'x'! If you have a mystery box plus 5 candies, and you know there are 12 candies in total (x + 5 = 12), you simply take away the 5 loose candies. That leaves 7 candies inside the box: x = 7! Mystery solved!",
+  "key_points": [
+    "A variable is a letter like 'x' that stands in place of a secret unknown number.",
+    "An equation is like a balanced playground see-saw: both sides must be equal.",
+    "Whatever math you do to one side of an equation, you must do to the other side.",
+    "To solve for 'x', use opposite operations: undo addition with subtraction, and undo multiplication with division.",
+    "If x + 5 = 12, then x = 12 - 5 = 7."
+  ],
+  "examples": [
+    "If you save x rupees and grandma gives you 10 rupees, and you now have 25 rupees (x + 10 = 25), you originally had x = 15 rupees.",
+    "If 3 pens cost 15 rupees (3x = 15), one pen costs 15 divided by 3 = 5 rupees."
+  ],
+  "misconceptions": [
+    "Misconception: 'x' always equals the same secret number in every math problem. Fact: 'x' is just a placeholder name; its value changes from problem to problem.",
+    "Misconception: You can change one side of an equation without touching the other. Fact: If you change one side, the scale tips over unless you do the exact same change to both sides."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "The Mystery Gift Box and Loose Candies",
+      "description": "A golden mystery box labeled 'x' sits next to 5 wrapped red candies on the left pan of a balanced scale.",
+      "visual_elements": ["balance_scale", "mystery_box_x", "five_candies"],
+      "animation_action": "trig_hypotenuse_ratio",
+      "caption": "Step 1: On the left pan: secret box 'x' plus 5 loose candies.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Balancing 12 Candies on the Right Pan",
+      "description": "Twelve wrapped red candies sit on the right pan, keeping the balance scale perfectly level and horizontal.",
+      "visual_elements": ["twelve_candies", "level_beam", "equal_indicator"],
+      "animation_action": "airplane_cruising_flight",
+      "caption": "Step 2: On the right pan: 12 candies. The scale is in perfect balance (x + 5 = 12)!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Taking Away 5 Candies from Both Sides",
+      "description": "Five candies vanish from both the left pan and the right pan simultaneously, keeping the balance completely level.",
+      "visual_elements": ["removing_five_left", "removing_five_right", "balanced_motion"],
+      "animation_action": "air_wing_lift",
+      "caption": "Step 3: Remove 5 candies from both sides to keep the balance level!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 4,
+      "title": "Mystery Solved: x = 7 Candies Inside the Box",
+      "description": "The mystery box opens to reveal 7 glowing candies inside, matching the 7 candies remaining on the right pan.",
+      "visual_elements": ["open_box_seven", "seven_candies_right", "success_glow"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "Step 4: The box opens: x = 7! The mystery is solved!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Equation",
+      "gloss": "EQUATION-BALANCE-SAME",
+      "description": "Both open flat palms held face up, tilting slightly then leveling out in perfect equilibrium. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Flat palms facing up like balance pans",
+      "movement": "Leveling to horizontal balance",
+      "asset_placeholder": "sign_equation.svg"
+    },
+    {
+      "term": "Variable",
+      "gloss": "LETTER-UNKNOWN-CHANGE",
+      "description": "Index finger traces the shape of 'X' in space, followed by questioning open palms. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "1-finger tracing X",
+      "movement": "Spatial letter tracing",
+      "asset_placeholder": "sign_variable.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "math_g7_q1",
+      "concept": "Simple Algebraic Equations and Unknown Variables",
+      "question": "If x + 5 = 12, what is the value of the unknown variable x?",
+      "expected_answer": "7",
+      "options": ["7", "17", "60", "2"],
+      "hint": "Subtract 5 from both sides: 12 minus 5.",
+      "visual_cue": "algebra_balance"
+    }
+  ]
+}

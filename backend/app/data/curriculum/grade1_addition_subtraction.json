@@ -1,0 +1,82 @@
+{
+  "subject": "Mathematics",
+  "grade_level": 1,
+  "topic": "Basic Addition",
+  "concept": "Addition and Putting Numbers Together",
+  "keywords": ["addition", "plus", "sum", "combine", "together", "count on", "total", "math"],
+  "standard_explanation": "Addition is a foundational mathematical operation representing the total amount when two or more numbers or groups of items are combined into a single sum. Indicated by the plus symbol (+), addition follows the commutative property, meaning the order of the numbers (addends) does not affect the final sum (e.g., 2 + 3 = 5 and 3 + 2 = 5).",
+  "simplified_explanation": "Adding is putting things together! If you have two red apples and a friend gives you three green apples, you count them all together: one, two, three, four, five! 2 plus 3 equals 5 delicious apples!",
+  "key_points": [
+    "Addition means joining groups together to find out how many in total.",
+    "The plus sign (+) tells us to add together.",
+    "The equals sign (=) shows the total number.",
+    "You can count on your fingers or use real objects to find the answer.",
+    "Adding zero to any number leaves it unchanged (4 + 0 = 4)."
+  ],
+  "examples": [
+    "Two toy cars parked next to three toy trucks make five vehicles in total.",
+    "Four blue balloons plus one yellow balloon equal five party balloons."
+  ],
+  "misconceptions": [
+    "Misconception: Adding always makes numbers gigantic. Fact: Adding small numbers like 1 + 1 just gives 2, and adding zero keeps the number the same.",
+    "Misconception: Order matters when adding. Fact: 2 + 3 is the exact same total as 3 + 2."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Two Shiny Apples on the Left",
+      "description": "Two bright red apples sit together inside a wooden basket on the table.",
+      "visual_elements": ["apple_basket", "red_apples", "wooden_table"],
+      "animation_action": "counting_apple_1",
+      "caption": "Step 1: Here are 2 red apples in the first basket.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Three Green Apples Join In",
+      "description": "Three crisp green apples roll gently over to sit beside the red apples.",
+      "visual_elements": ["green_apples", "plus_symbol", "rolling_apples"],
+      "animation_action": "counting_apple_2",
+      "caption": "Step 2: Here come 3 green apples to join them!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Putting Them All Together (2 + 3 = 5)",
+      "description": "All five apples gather in a bright golden circle as a big equals sign shines brightly.",
+      "visual_elements": ["all_five_apples", "equals_symbol", "golden_glow"],
+      "animation_action": "counting_apple_3",
+      "caption": "Step 3: Count them all together: 1, 2, 3, 4, 5! 2 plus 3 equals 5!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Add",
+      "gloss": "ADD-BRING-TOGETHER",
+      "description": "Both open 5-hands move inward toward center, clasping fingers together. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Open 5 hands closing together",
+      "movement": "Inward gathering motion",
+      "asset_placeholder": "sign_add.svg"
+    },
+    {
+      "term": "Equal",
+      "gloss": "SAME-EQUAL",
+      "description": "Both index fingers extend horizontally and tap gently parallel to each other. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Parallel 1-fingers",
+      "movement": "Gentle horizontal tap",
+      "asset_placeholder": "sign_equal.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "math_g1_q1",
+      "concept": "Addition and Putting Numbers Together",
+      "question": "What is 2 apples plus 3 apples altogether?",
+      "expected_answer": "5 apples",
+      "options": ["5 apples", "4 apples", "6 apples", "2 apples"],
+      "hint": "Count them up: 1, 2, 3, 4, and one more!",
+      "visual_cue": "five_apples"
+    }
+  ]
+}

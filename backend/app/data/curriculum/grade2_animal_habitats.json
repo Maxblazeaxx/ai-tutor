@@ -1,0 +1,82 @@
+{
+  "subject": "Environmental Studies",
+  "grade_level": 2,
+  "topic": "Animal Habitats",
+  "concept": "Animals and Their Homes (Land, Water, and Air)",
+  "keywords": ["animals", "habitats", "homes", "land", "water", "air", "birds", "fish", "evs"],
+  "standard_explanation": "An animal's habitat is the natural ecological environment in which it resides, finds sustenance, and reproduces. Terrestrial animals (such as lions, elephants, and rabbits) inhabit land, forests, and burrows. Aquatic organisms (such as fish, whales, and crabs) reside in freshwater or marine environments equipped with gills or swimming appendages. Aerial and arboreal animals (such as birds, bats, and monkeys) navigate tree canopies and flight corridors.",
+  "simplified_explanation": "Every animal has a special home where it feels safe and happy! Fish swim in cool water, birds build cozy nests high in trees, and friendly rabbits dig underground burrows in the soft dirt!",
+  "key_points": [
+    "A habitat is the natural home where an animal finds food, water, and shelter.",
+    "Fish and frogs live in aquatic habitats like ponds, rivers, and oceans.",
+    "Lions, cows, and dogs live on terrestrial habitats like grasslands and farms.",
+    "Birds have feathers and wings to fly in the air and build nests in green trees.",
+    "Protecting animal habitats keeps our Earth beautiful and healthy."
+  ],
+  "examples": [
+    "Goldfish use fins and gills to swim happily in blue water ponds.",
+    "A mother sparrow weaves dry twigs and soft grass to build a warm nest for her baby chicks."
+  ],
+  "misconceptions": [
+    "Misconception: All animals can live anywhere. Fact: Fish cannot breathe in air, and birds cannot breathe underwater.",
+    "Misconception: A nest is a bird's permanent house. Fact: Birds primarily use nests to lay eggs and keep chicks safe until they can fly."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Swimming in the Blue Pond",
+      "description": "A shiny orange fish glides smoothly through clear blue water surrounded by green underwater plants.",
+      "visual_elements": ["pond_water", "orange_fish", "water_plants"],
+      "animation_action": "circulatory_body_loop",
+      "caption": "Step 1: Fish swim in cool water ponds and rivers using their fins.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Birds Perched High in the Tree Nest",
+      "description": "A friendly brown sparrow sits inside a woven twig nest high up on a leafy tree branch.",
+      "visual_elements": ["leafy_tree", "twig_nest", "sparrow_bird"],
+      "animation_action": "apple_on_branch",
+      "caption": "Step 2: Birds fly through the air and rest in cozy twig nests in tall trees.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Land Animals in the Sunny Meadow",
+      "description": "A soft rabbit nibbles fresh grass outside its cozy underground burrow in a green meadow.",
+      "visual_elements": ["green_meadow", "rabbit_burrow", "sunny_meadow"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "Step 3: Rabbits and deer live on grassy land and sleep in safe burrows!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Animal",
+      "gloss": "ANIMAL",
+      "description": "Fingertips placed on chest near armpits, hands pivot inward and outward gently like breathing. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Bent flat hands at chest",
+      "movement": "Pivoting inward-outward",
+      "asset_placeholder": "sign_animal.svg"
+    },
+    {
+      "term": "Home",
+      "gloss": "HOME-HOUSE",
+      "description": "Flattened O-hand touches chin then moves to cheek, or roof-tent gesture with flat hands. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Flat hands touching fingertips as roof",
+      "movement": "Apex roof contact",
+      "asset_placeholder": "sign_home.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "evs_g2_q1",
+      "concept": "Animals and Their Homes (Land, Water, and Air)",
+      "question": "Where does a fish naturally live and swim?",
+      "expected_answer": "In water (ponds, rivers, oceans)",
+      "options": ["In water (ponds, rivers, oceans)", "High up in clouds", "Under dry hot sand dunes", "Inside brick chimneys"],
+      "hint": "Fish use fins to swim and gills to breathe underwater.",
+      "visual_cue": "swimming_fish"
+    }
+  ]
+}

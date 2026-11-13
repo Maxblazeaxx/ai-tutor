@@ -36,6 +36,9 @@ export default function TopicSelector({ onSearch, isSearching, topics = [] }) {
     ],
     secondary: [
       { name: "Human Circulatory System (CBSE Grade 10)", label: "❤️ Circulatory System (Grade 10)", color: "bg-red-50 text-red-900 border-red-200" },
+      { name: "Newton's Laws of Motion", label: "🚀 Newton's Laws (Grade 9)", color: "bg-indigo-50 text-indigo-900 border-indigo-200" },
+      { name: "Chemical Bonds", label: "🧪 Chemical Bonds (Grade 10)", color: "bg-teal-50 text-teal-900 border-teal-200" },
+      { name: "Cell Structure and Function", label: "🔬 Cell Biology (Grade 9)", color: "bg-emerald-50 text-emerald-900 border-emerald-200" },
       { name: "Electricity and Ohm's Law (CBSE Grade 10)", label: "⚡ Ohm's Law V = I × R (Grade 10)", color: "bg-yellow-50 text-yellow-900 border-yellow-200" },
       { name: "Trigonometry and Right Triangles (CBSE Grade 10)", label: "📐 Trigonometry & Angles (Grade 10)", color: "bg-blue-50 text-blue-900 border-blue-200" },
       { name: "Chemical Reactions and Equations (CBSE Grade 10)", label: "⚗️ Chemical Equations (Grade 10)", color: "bg-emerald-50 text-emerald-900 border-emerald-200" },

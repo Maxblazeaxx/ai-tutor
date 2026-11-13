@@ -1,0 +1,109 @@
+{
+  "subject": "Physics",
+  "grade_level": 9,
+  "topic": "Laws of Motion",
+  "concept": "Newton's Laws of Motion",
+  "keywords": ["newton", "force", "inertia", "acceleration", "mass", "action", "reaction", "motion"],
+  "standard_explanation": "Newton's three laws of motion describe the relationship between the motion of an object and the forces acting upon it. The First Law (Law of Inertia) states that an object at rest remains at rest, and an object in motion continues with constant velocity unless acted on by a net external force. The Second Law states that force equals mass times acceleration (F = ma), meaning acceleration is directly proportional to net force and inversely proportional to mass. The Third Law states that for every action, there is an equal and opposite reaction.",
+  "simplified_explanation": "Things don't move unless pushed or pulled! If a toy car sits on a floor, it stays still until you push it. A heavy box takes a bigger push to slide fast than a light box. And when you jump off a skateboard, the board rolls backward while you jump forward!",
+  "key_points": [
+    "First Law (Inertia): Objects keep doing what they are doing unless a push stops or moves them.",
+    "Second Law (F=ma): Pushing harder makes things accelerate faster; heavier things need more force.",
+    "Third Law (Action-Reaction): Every push creates an equal push back in the opposite direction.",
+    "Mass measures how hard it is to change an object's motion.",
+    "Forces always come in matched pairs acting on different objects."
+  ],
+  "examples": [
+    "A soccer ball stays on the grass until a player kicks it (First Law).",
+    "A shopping cart accelerates much faster when pushed empty than when full of groceries (Second Law).",
+    "A rocket launches upward because burning gas is pushed downward out of the engine (Third Law)."
+  ],
+  "misconceptions": [
+    "Misconception: Continuous motion requires continuous force. Fact: Friction stops moving objects; in space without friction, objects glide forever without any extra force.",
+    "Misconception: Action and reaction forces cancel each other out. Fact: They act on two different objects, so they do not cancel."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Resting Ball on Table (Inertia)",
+      "description": "A soccer ball sits perfectly still on a level green table.",
+      "visual_elements": ["ball", "table", "rest_indicator"],
+      "animation_action": "apple_on_branch",
+      "caption": "The ball stays still until a force pushes it.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Applying Force to Push",
+      "description": "An arrow pushes the ball forward, making it accelerate across the floor.",
+      "visual_elements": ["ball", "force_arrow", "speed_lines"],
+      "animation_action": "air_thrust_forward",
+      "caption": "A push (force) makes the ball accelerate forward.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Heavier Mass Needs More Force",
+      "description": "Comparing a small light ball and a large heavy stone pushed with the same force arrow.",
+      "visual_elements": ["small_ball", "large_stone", "force_arrows"],
+      "animation_action": "gravity_pull",
+      "caption": "Heavier objects need more force to speed up (F = ma).",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 4,
+      "title": "Rocket Launch Action and Reaction",
+      "description": "A rocket pushes hot exhaust downward, accelerating upward into the blue sky.",
+      "visual_elements": ["rocket", "exhaust_flame", "upward_vector", "downward_vector"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "Exhaust pushes down, rocket shoots up: equal and opposite reaction!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Force",
+      "gloss": "FORCE-PUSH",
+      "description": "Open flat hands push firmly forward away from the chest. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Flat hands facing out",
+      "movement": "Firm forward push",
+      "asset_placeholder": "sign_force.svg"
+    },
+    {
+      "term": "Motion",
+      "gloss": "MOVE-FORWARD",
+      "description": "Hands glide smoothly forward along parallel lines. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Flat B-hands gliding",
+      "movement": "Continuous forward motion",
+      "asset_placeholder": "sign_motion.svg"
+    },
+    {
+      "term": "Reaction",
+      "gloss": "ACTION-OPPOSITE-RETURN",
+      "description": "One hand moves forward, second hand moves backward in reciprocal rhythm. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Opposing 1-fingers",
+      "movement": "Reciprocal back-and-forth",
+      "asset_placeholder": "sign_reaction.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "newton_q1",
+      "concept": "Newton's Laws of Motion",
+      "question": "What happens to a resting object if no force pushes or pulls it?",
+      "expected_answer": "It stays at rest",
+      "options": ["It stays at rest", "It begins to spin", "It flies upward", "It slowly vanishes"],
+      "hint": "Think of a ball sitting on a flat table.",
+      "visual_cue": "resting_ball"
+    },
+    {
+      "question_id": "newton_q2",
+      "concept": "Newton's Laws of Motion",
+      "question": "According to the Third Law, for every action force there is an equal and opposite what?",
+      "expected_answer": "Reaction force",
+      "options": ["Reaction force", "Gravity increase", "Heat explosion", "Magnetic charge"],
+      "hint": "Think of how a rocket pushes gas down to move up.",
+      "visual_cue": "rocket_thrust"
+    }
+  ]
+}

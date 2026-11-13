@@ -84,3 +84,16 @@ export async function sendChatMessage({ learner_id, message }) {
   });
   return res.json();
 }
+
+export async function generateAIAnimatedLesson({ learner_id, concept_or_query }) {
+  const res = await fetch(`${API_BASE}/lesson/ai-animated`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      learner_id,
+      concept_or_query
+    }),
+  });
+  return res.json();
+}
+

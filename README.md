@@ -84,6 +84,19 @@ Provides an interactive 1-click quick-launch bar in the top navigation allowing 
 5. Open-domain inquiry synthesis (Airplanes)
 6. Longitudinal defense metrics and certificate generation
 
+### E. AI-Generated SVG Animation Studio ([`DynamicSVGPlayer.jsx`](frontend/src/components/DynamicSVGPlayer.jsx)) — Phase 2
+Enables end-to-end AI generation of visual educational animations:
+- **LLM-Specified Vector Graphics:** Gemini synthesizes SVG elements (shapes, paths, lines, arrows, text) with spatial coordinates, colours, and opacity.
+- **CSS Keyframe Interpolation:** Real-time CSS and SVG transformation interpolation driven by `requestAnimationFrame`.
+- **Inclusive Audio & Visual Pacing:** Integrated TTS narration, high-contrast black/yellow toggle, and variable cognitive speed (`0.5x`, `0.75x`, `1.0x`).
+- **Resilient Fallback:** Automatically falls back to deterministic template specs if the LLM or schema validation fails.
+
+### F. Student Progress Tracker ([`ProgressTracker.jsx`](frontend/src/components/ProgressTracker.jsx)) — Phase 2
+Provides persistent longitudinal learning history and student mastery analytics:
+- **Mastery Distribution Graph:** Pure SVG horizontal bar chart tracking accuracy rates across all attempted topics.
+- **Learning Streak Counter:** Dynamic daily active usage counter derived from local learning logs.
+- **Activity Log & Data Export:** Filterable table of past quiz attempts with one-click JSON export.
+
 ---
 
 ## 5. Technology Stack & Edge Constraints
@@ -102,7 +115,7 @@ Empirical performance measured on host hardware (Intel Core i5, 7.69 GB RAM, Win
 
 | Benchmark Metric | Measured Result | Benchmark Standard | Status |
 | :--- | :--- | :--- | :--- |
-| **Pytest Unit & Integration Tests** | **38 / 38 Passed** | 100% Pass | ✅ PASS |
+| **Pytest Unit & Integration Tests** | **42 / 42 Passed** | 100% Pass | ✅ PASS |
 | **RAG Retrieval Precision@1** | **100.0%** (MRR: 1.000) | $\ge 85.0\%$ | ✅ PASS |
 | **Average RAG Retrieval Latency** | **2.22 ms** | $< 50\text{ ms}$ | ✅ PASS |
 | **Assessment Scoring Accuracy** | **100.0%** | $\ge 95.0\%$ | ✅ PASS |

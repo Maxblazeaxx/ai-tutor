@@ -1,0 +1,108 @@
+{
+  "subject": "Biology",
+  "grade_level": 9,
+  "topic": "Cell Biology",
+  "concept": "Cell Structure and Function",
+  "keywords": ["cell", "nucleus", "mitochondria", "membrane", "cytoplasm", "organelles", "chloroplast", "dna"],
+  "standard_explanation": "The cell is the basic structural, functional, and biological unit of all known living organisms. Often referred to as the building blocks of life, cells can be prokaryotic (lacking a membrane-bound nucleus, e.g. bacteria) or eukaryotic (possessing a true membrane-bound nucleus and specialized organelles, e.g. plants and animals). Essential organelles include the cell membrane, which regulates the entry and exit of substances; the nucleus, containing genetic instructions in DNA; mitochondria, generating biochemical energy (ATP); and in plant cells, chloroplasts, responsible for photosynthesis.",
+  "simplified_explanation": "Every living creature is built of tiny living rooms called cells! Your body has trillions of them. Each cell has a wall called a membrane that keeps it safe, a brain inside called the nucleus that gives instructions, and tiny powerhouses called mitochondria that make energy so you can run and play!",
+  "key_points": [
+    "Cells are the fundamental building blocks of all living things.",
+    "The cell membrane is a protective barrier that controls what goes in and out.",
+    "The nucleus is the control center holding the cell's DNA instructions.",
+    "Mitochondria are the powerhouses that generate cellular energy (ATP).",
+    "Plant cells also have chloroplasts to capture sunlight and rigid cell walls."
+  ],
+  "examples": [
+    "Skin cells form a protective waterproof sheet covering your whole body.",
+    "Muscle cells are packed with mitochondria to provide bursts of energy for running."
+  ],
+  "misconceptions": [
+    "Misconception: All cells are identical. Fact: Cells specialize into hundreds of distinct shapes and functions like neurons, muscle fibers, and blood cells.",
+    "Misconception: Cells are flat like textbook drawings. Fact: Real cells are 3D jelly-like compartments filled with fluid organelles."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Meeting the Living Cell",
+      "description": "A translucent 3D cellular sphere surrounded by a flexible outer membrane floating in nutrient fluid.",
+      "visual_elements": ["cell_membrane", "cytoplasm", "living_sphere"],
+      "animation_action": "circulatory_four_chambers",
+      "caption": "Meet the cell! The cell membrane keeps the inside safe and organized.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "The Nucleus Control Center",
+      "description": "Zooming into the center: a golden sphere holding coiled DNA ladders glowing with biological instructions.",
+      "visual_elements": ["nucleus", "dna_ladder", "genetic_code"],
+      "animation_action": "genetics_dna_helix",
+      "caption": "The nucleus in the center holds DNA instructions for the whole cell.",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Mitochondria Powerhouses at Work",
+      "description": "Oval mitochondria pulsing with energy sparks, churning out ATP batteries to power cell activities.",
+      "visual_elements": ["mitochondria", "energy_sparks", "atp_particles"],
+      "animation_action": "circuit_battery_push",
+      "caption": "Mitochondria powerhouses turn food into energy so the cell can work!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 4,
+      "title": "Harmonious Living Factory",
+      "description": "All cell organelles working together: membrane, nucleus, mitochondria, and transport tubes in full motion.",
+      "visual_elements": ["complete_cell", "organelles_in_motion", "health_glow"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "All parts cooperate as a tiny living factory building your body!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Cell",
+      "gloss": "CELL-TINY-COMPARTMENT",
+      "description": "Curved C-hands form small enclosed circle, showing a tiny compartment. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Curved C-hands enclosing",
+      "movement": "Enclosing spherical shape",
+      "asset_placeholder": "sign_cell.svg"
+    },
+    {
+      "term": "Nucleus",
+      "gloss": "CENTER-BRAIN-CORE",
+      "description": "Index finger points precisely to center of curved non-dominant cupped palm. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Point to cupped palm",
+      "movement": "Direct center placement",
+      "asset_placeholder": "sign_nucleus.svg"
+    },
+    {
+      "term": "Energy",
+      "gloss": "POWER-ENERGY-PUMP",
+      "description": "Fists pull down flexing biceps with energetic upward burst. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Double fists flexing",
+      "movement": "Dynamic flex downward",
+      "asset_placeholder": "sign_energy.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "cell_q1",
+      "concept": "Cell Structure and Function",
+      "question": "Which organelle serves as the control center of the cell and holds DNA?",
+      "expected_answer": "Nucleus",
+      "options": ["Nucleus", "Ribosome", "Vacuole", "Cell wall"],
+      "hint": "It is like the brain inside the center of the cell.",
+      "visual_cue": "cell_nucleus"
+    },
+    {
+      "question_id": "cell_q2",
+      "concept": "Cell Structure and Function",
+      "question": "What is known as the powerhouse of the cell that generates energy?",
+      "expected_answer": "Mitochondria",
+      "options": ["Mitochondria", "Cytoplasm", "Endoplasmic reticulum", "Lysosome"],
+      "hint": "Think of the organelle that makes energy sparks.",
+      "visual_cue": "mitochondria_power"
+    }
+  ]
+}

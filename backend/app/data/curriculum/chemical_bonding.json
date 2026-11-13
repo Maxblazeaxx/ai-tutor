@@ -1,0 +1,108 @@
+{
+  "subject": "Chemistry",
+  "grade_level": 10,
+  "topic": "Chemical Bonding",
+  "concept": "Chemical Bonds",
+  "keywords": ["chemical bonds", "ionic", "covalent", "electrons", "atoms", "valence", "sodium", "chlorine", "water"],
+  "standard_explanation": "Chemical bonding is the attractive interaction between atoms or ions that leads to the formation of stable molecules and compounds. Atoms bond to achieve a stable octet configuration in their outermost valence electron shells. The two primary types of bonds are ionic bonds—formed through the complete electrostatic transfer of one or more valence electrons from a metal atom to a non-metal atom (e.g. NaCl)—and covalent bonds—formed when two non-metal atoms mutually share one or more pairs of valence electrons (e.g. H2O and CO2).",
+  "simplified_explanation": "Atoms want to feel happy and complete! They do this by trading or sharing tiny particles called electrons. Sodium gives away one electron to Chlorine to make table salt—that's an ionic bond. Two hydrogen atoms share electrons with oxygen to make pure water—that's a covalent bond!",
+  "key_points": [
+    "Atoms form bonds to achieve stable full outer shells of electrons (octet rule).",
+    "Ionic bonding involves the transfer of electrons from a metal to a nonmetal.",
+    "Covalent bonding involves the mutual sharing of electron pairs between nonmetals.",
+    "Table salt (NaCl) is held together by ionic bonds.",
+    "Water molecules (H2O) are formed through covalent bonds."
+  ],
+  "examples": [
+    "Sodium chloride (table salt) forms crystalline cubes because positive Na+ and negative Cl- ions attract tightly.",
+    "Water in your drinking glass is billions of H2O molecules held together by shared electron pairs."
+  ],
+  "misconceptions": [
+    "Misconception: Electrons are destroyed when atoms bond. Fact: Electrons are conserved; they are either transferred to another atom or shared between nuclei.",
+    "Misconception: Ionic bonds are weaker than covalent bonds in solids. Fact: Solid ionic crystal lattices require tremendous energy to melt."
+  ],
+  "visual_scenes": [
+    {
+      "scene": 1,
+      "title": "Two Lonely Atoms Approach",
+      "description": "A metal sodium atom with one outer electron approaches a chlorine atom needing one electron.",
+      "visual_elements": ["sodium_atom", "chlorine_atom", "outer_electrons"],
+      "animation_action": "chem_reactants_ready",
+      "caption": "Atoms approach with outer valence electrons.",
+      "duration_seconds": 3
+    },
+    {
+      "scene": 2,
+      "title": "Electron Transfer (Ionic Bond)",
+      "description": "An electron leaps from sodium to chlorine, creating a positive and negative ion pair that click together.",
+      "visual_elements": ["electron_transfer", "na_positive", "cl_negative"],
+      "animation_action": "chem_bonds_rearrange",
+      "caption": "One electron transfers: positive and negative ions snap together!",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 3,
+      "title": "Electron Sharing (Covalent Bond)",
+      "description": "Two hydrogen atoms share their electrons with one oxygen atom to form a stable water molecule.",
+      "visual_elements": ["hydrogen_atoms", "oxygen_atom", "shared_pairs"],
+      "animation_action": "chem_product_water",
+      "caption": "Atoms share electron pairs between them to make water (H2O).",
+      "duration_seconds": 4
+    },
+    {
+      "scene": 4,
+      "title": "Stable Molecular Lattice",
+      "description": "A gleaming 3D crystal lattice of salt and vibrating water molecules in harmonious balance.",
+      "visual_elements": ["salt_lattice", "water_droplet", "stable_molecules"],
+      "animation_action": "topic_synthesis_summary",
+      "caption": "Bonds create the stable substances we see, drink, and use every day!",
+      "duration_seconds": 4
+    }
+  ],
+  "sign_glossary": [
+    {
+      "term": "Bond",
+      "gloss": "BOND-LINK-TOGETHER",
+      "description": "Two index-thumb loops hook firmly together like chain links. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Interlocking O-loops",
+      "movement": "Hooking link motion",
+      "asset_placeholder": "sign_bond.svg"
+    },
+    {
+      "term": "Share",
+      "gloss": "SHARE-EQUAL",
+      "description": "Right hand strokes gently back and forth between two open palms. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Flat B-hands",
+      "movement": "Reciprocal dividing sweep",
+      "asset_placeholder": "sign_share.svg"
+    },
+    {
+      "term": "Electron",
+      "gloss": "TINY-ORBIT-PARTICLE",
+      "description": "Small pinch handshape circles rapidly around stationary fist nucleus. (placeholder gloss, not verified ISL/ASL)",
+      "handshape": "Pinch around fist",
+      "movement": "Orbiting circle",
+      "asset_placeholder": "sign_electron.svg"
+    }
+  ],
+  "assessment_questions": [
+    {
+      "question_id": "bond_q1",
+      "concept": "Chemical Bonds",
+      "question": "What type of bond forms when atoms share pairs of electrons?",
+      "expected_answer": "Covalent bond",
+      "options": ["Covalent bond", "Ionic bond", "Metallic glue", "Magnetic link"],
+      "hint": "Think of sharing electrons to make water molecules.",
+      "visual_cue": "shared_electron_pair"
+    },
+    {
+      "question_id": "bond_q2",
+      "concept": "Chemical Bonds",
+      "question": "What is transferred from one atom to another in an ionic bond?",
+      "expected_answer": "Electrons",
+      "options": ["Electrons", "Protons", "Neutrons", "Molecules"],
+      "hint": "These are tiny negative particles in the outer shells.",
+      "visual_cue": "transferred_electron"
+    }
+  ]
+}

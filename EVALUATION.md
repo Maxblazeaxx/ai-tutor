@@ -9,9 +9,10 @@ This document presents empirical measurements and benchmark evaluations conducte
 The automated test suite (`backend/tests/`) validates RAG retrieval, multi-tiered assessment, adaptation state transitions, dynamic curriculum ingestion, multi-topic generation across Montessori to 10th grade CBSE, and open-domain topic synthesis.
 
 - **Test Suite Framework:** `pytest 9.1.1` on Python 3.14.5
-- **Total Test Cases:** 38
-- **Passed:** 38 / 38 (100%)
-- **Execution Time:** ~12.1 seconds
+- **Total Test Cases:** 42
+- **Passed:** 42 / 42 (100%)
+- **Execution Time:** ~15.7 seconds
+
 
 ### Test Breakdown by Category
 
@@ -55,6 +56,11 @@ The automated test suite (`backend/tests/`) validates RAG retrieval, multi-tiere
 | `test_api.py` | `test_evaluation_report_endpoint` | Evaluation report endpoint returns complete academic metrics | **PASSED** |
 | `test_api.py` | `test_multi_topic_lesson_generation` | Multi-topic generation across Montessori, Middle, and 10th grade CBSE | **PASSED** |
 | `test_api.py` | `test_open_domain_arbitrary_topic_synthesis` | Universal synthesis for ANY arbitrary topic on the fly | **PASSED** |
+| `test_ai_animation.py` | `test_template_fallback_returns_valid_schema` | Validates fallback AI animation lesson schema compliance | **PASSED** |
+| `test_ai_animation.py` | `test_template_fallback_has_elements` | Ensures each scene contains valid SVG element specs | **PASSED** |
+| `test_ai_animation.py` | `test_svg_element_spec_keyframes_valid` | Validates element keyframe timing and opacity boundaries | **PASSED** |
+| `test_ai_animation.py` | `test_generate_fallback_quiz_exists` | Enforces inclusion of 4-option quiz in AI animation spec | **PASSED** |
+
 
 ---
 

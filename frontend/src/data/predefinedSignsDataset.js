@@ -1,5 +1,5 @@
 /**
- * Predefined Fixed Sign Language Dataset (75 Everyday & Academic Signs)
+ * Predefined Fixed Sign Language Dataset (96 Signs - Complete A-Z Alphabet & Essentials)
  * Categories:
  * 1. Social & Emotions (Good, Bad, Please, Thank You, Happy, Sad, Yes, No, etc.)
  * 2. Communication & Questions (Help, Understand, What, Why, How, Stop, etc.)
@@ -1379,6 +1379,396 @@ export const PREDEFINED_SIGNS = [
       "Palm faces forward."
     ],
     usageTip: "Completes the foundational vowel series A and E."
+  }
+,
+  {
+    id: "sign_letter_f",
+    term: "Letter F",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-F / THREE-UP-O-RING",
+    svgType: "alpha_f",
+    handshape: "Index finger and thumb touch to form an O circle; middle, ring, pinky fingers straight upright and spread",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Thumb and index tips touch in an open ring, while the other three fingers stand upright like feathers.",
+    steps: [
+      "Touch the tip of your index finger to the tip of your thumb to form a small circle.",
+      "Extend your middle, ring, and pinky fingers straight up and slightly spread.",
+      "Palm faces forward toward the viewer."
+    ],
+    usageTip: "Opposite configuration of letter D; note 3 fingers are up, not 1."
+  },
+  {
+    id: "sign_letter_g",
+    term: "Letter G",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-G / HORIZONTAL-PINCH",
+    svgType: "alpha_g",
+    handshape: "Index finger and thumb extend horizontally parallel pointing sideways",
+    dominantHand: "Dominant hand",
+    movement: "Held static, pointing across body or forward",
+    location: "Chest level, slightly forward",
+    description: "Thumb and index finger extend horizontally like measuring a small gap (pinch gauge), other fingers curled into palm.",
+    steps: [
+      "Make a fist.",
+      "Extend your index finger horizontally sideways.",
+      "Extend your thumb parallel to the index finger, leaving about an inch gap.",
+      "Curl remaining three fingers into your palm."
+    ],
+    usageTip: "Resembles picking up a grain or holding a thin card."
+  },
+  {
+    id: "sign_letter_h",
+    term: "Letter H",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-H / TWO-FINGER-HORIZONTAL",
+    svgType: "alpha_h",
+    handshape: "Index and middle fingers extended straight horizontally side by side",
+    dominantHand: "Dominant hand",
+    movement: "Held static, pointing across body",
+    location: "Chest level",
+    description: "Two fingers (index and middle) extend together horizontally, like the two horizontal strokes of H.",
+    steps: [
+      "Extend your index and middle fingers together side-by-side.",
+      "Point both fingers horizontally across your chest.",
+      "Tuck your thumb across your folded ring and pinky fingers."
+    ],
+    usageTip: "Similar to G, but with two fingers extended instead of one."
+  },
+  {
+    id: "sign_letter_i",
+    term: "Letter I",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-I / PINKY-UP",
+    svgType: "alpha_i",
+    handshape: "Closed fist with pinky finger pointing straight upright",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "A neat fist with only the little pinky finger extended straight upward, representing the dot and slender stem of 'i'.",
+    steps: [
+      "Curl your index, middle, and ring fingers tightly into your palm.",
+      "Fold your thumb across your curled fingers.",
+      "Extend your pinky finger straight up toward the ceiling."
+    ],
+    usageTip: "Foundational handshape; adding a J-hook motion turns this into letter J."
+  },
+  {
+    id: "sign_letter_j",
+    term: "Letter J",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-J / PINKY-SWOOP",
+    svgType: "alpha_j",
+    handshape: "I-handshape (pinky extended) tracing a 'J' swoop in the air",
+    dominantHand: "Dominant hand",
+    movement: "Pinky draws down and curves upward in a smooth 'J' shape",
+    location: "In front of chest",
+    description: "Starting in the 'I' handshape, the pinky sweeps downward and curves up to draw the cursive hook of letter J.",
+    steps: [
+      "Form the Letter I handshape with your pinky extended upright.",
+      "Draw your pinky downward about two inches.",
+      "Curve your wrist smoothly inward and upward to complete the bottom hook of 'J'."
+    ],
+    usageTip: "One of only two letters in the manual alphabet that incorporates motion (along with Z)."
+  },
+  {
+    id: "sign_letter_k",
+    term: "Letter K",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-K / V-THUMB-CROOK",
+    svgType: "alpha_k",
+    handshape: "Index finger straight up, middle finger forward at 45 degrees, thumb resting between them",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Index finger stands tall, middle finger angles forward, and thumb tip touches the knuckle between them forming a 'K'.",
+    steps: [
+      "Extend your index finger straight up.",
+      "Angle your middle finger forward at roughly 45 degrees.",
+      "Place your thumb tip between the base of your index and middle fingers.",
+      "Curl ring and pinky fingers into your palm."
+    ],
+    usageTip: "Inverting this handshape downward creates letter P."
+  },
+  {
+    id: "sign_letter_l",
+    term: "Letter L",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-L / RIGHT-ANGLE-L",
+    svgType: "alpha_l",
+    handshape: "Index finger straight up, thumb extended horizontally at a 90-degree right angle",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Hand creates an unmistakable capital 'L' with the vertical index finger and horizontal thumb.",
+    steps: [
+      "Extend your index finger straight up toward the ceiling.",
+      "Extend your thumb out horizontally to the side at a 90-degree angle.",
+      "Fold your remaining three fingers into your palm.",
+      "Palm faces forward."
+    ],
+    usageTip: "Iconic pictorial sign that literally looks like the printed letter L."
+  },
+  {
+    id: "sign_letter_m",
+    term: "Letter M",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-M / THREE-FINGER-TUCK",
+    svgType: "alpha_m",
+    handshape: "Thumb tucked underneath the first three fingers (index, middle, ring)",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Three fingers (representing the 3 arches of 'm') fold over the thumb, with only the pinky left beneath.",
+    steps: [
+      "Place your thumb tip across your palm resting between your ring and pinky finger.",
+      "Fold your index, middle, and ring fingers down over the thumb.",
+      "Hold palm facing forward."
+    ],
+    usageTip: "Remember: M has 3 humps, so 3 fingers rest over the thumb."
+  },
+  {
+    id: "sign_letter_n",
+    term: "Letter N",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-N / TWO-FINGER-TUCK",
+    svgType: "alpha_n",
+    handshape: "Thumb tucked underneath the first two fingers (index and middle)",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Two fingers (representing the 2 legs of 'n') fold over the thumb, with ring and pinky fingers underneath.",
+    steps: [
+      "Place your thumb tip between your middle and ring fingers.",
+      "Fold your index and middle fingers down over the thumb.",
+      "Keep your ring and pinky tucked into your palm.",
+      "Palm faces forward."
+    ],
+    usageTip: "Remember: N has 2 arches/legs, so 2 fingers rest over the thumb (one fewer than M)."
+  },
+  {
+    id: "sign_letter_o",
+    term: "Letter O",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-O / FULL-OVAL-LOOP",
+    svgType: "alpha_o",
+    handshape: "All fingertips curved to touch the curved thumb, forming an 'O' ring",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "All four fingers curve gracefully downward to meet the curved thumb, forming a full circular 'O'.",
+    steps: [
+      "Curve all four fingers together.",
+      "Curve your thumb upward until the tips of all four fingers meet your thumb pad.",
+      "Inspect from the side: an open circular portal like 'O' is formed."
+    ],
+    usageTip: "Pure circular letter shape; clear and easily recognized."
+  },
+  {
+    id: "sign_letter_p",
+    term: "Letter P",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-P / DOWNWARD-K",
+    svgType: "alpha_p",
+    handshape: "K-handshape pointing downward; index points down, middle extends forward, thumb in crook",
+    dominantHand: "Dominant hand",
+    movement: "Held static, tilted downward",
+    location: "Mid-chest level",
+    description: "Form the 'K' handshape and tilt your wrist downward so the index finger points straight to the floor.",
+    steps: [
+      "Form the Letter K handshape with index up, middle forward, and thumb between them.",
+      "Drop your wrist down so the index finger points straight toward the floor.",
+      "Middle finger extends horizontally forward.",
+      "Hold steady."
+    ],
+    usageTip: "Identical finger position to K, simply oriented downward."
+  },
+  {
+    id: "sign_letter_q",
+    term: "Letter Q",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-Q / DOWNWARD-G",
+    svgType: "alpha_q",
+    handshape: "G-handshape pointing downward; index finger and thumb point down parallel",
+    dominantHand: "Dominant hand",
+    movement: "Held static, tilted downward",
+    location: "Mid-chest level",
+    description: "Form the 'G' pinch handshape and tilt it downward so thumb and index point toward the ground.",
+    steps: [
+      "Form the Letter G handshape with thumb and index extended parallel.",
+      "Rotate your wrist down so both index and thumb point toward the floor.",
+      "Curl remaining three fingers into palm."
+    ],
+    usageTip: "Downward companion to G (just as P is the downward companion to K)."
+  },
+  {
+    id: "sign_letter_r",
+    term: "Letter R",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-R / CROSSED-FINGERS",
+    svgType: "alpha_r",
+    handshape: "Index and middle fingers crossed over each other like good-luck fingers",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Middle finger crosses over the front of the upright index finger, exactly like crossing fingers for good luck.",
+    steps: [
+      "Extend your index and middle fingers straight up.",
+      "Cross your middle finger over the front of your index finger.",
+      "Tuck your ring and pinky fingers with your thumb folded across them.",
+      "Hold upright."
+    ],
+    usageTip: "Universal 'fingers crossed' symbol."
+  },
+  {
+    id: "sign_letter_s",
+    term: "Letter S",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-S / FIST-THUMB-FRONT",
+    svgType: "alpha_s",
+    handshape: "Closed fist with thumb folded horizontally across the front of the curled fingers",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Tight fist where thumb wraps tightly across the knuckles in front, distinguishing it from 'A' and 'T'.",
+    steps: [
+      "Curl all four fingers into a tight fist against your palm.",
+      "Wrap your thumb horizontally across the middle knuckles of your fingers.",
+      "Palm faces forward toward the viewer."
+    ],
+    usageTip: "Contrast with letter A: for A, thumb is on the side; for S, thumb crosses the front."
+  },
+  {
+    id: "sign_letter_t",
+    term: "Letter T",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-T / THUMB-PEEK-INDEX",
+    svgType: "alpha_t",
+    handshape: "Thumb tucked between the index and middle fingers of a closed fist",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Fist with the thumb peeking up between the index and middle fingers, forming the stem and top bar of 'T'.",
+    steps: [
+      "Form a fist with your thumb tucked directly between your index and middle fingers.",
+      "Curled index finger rests over the top of your thumb knuckle.",
+      "Palm faces forward."
+    ],
+    usageTip: "Part of the M-N-T group: M has 3 fingers over thumb, N has 2, T has only 1 (index)."
+  },
+  {
+    id: "sign_letter_u",
+    term: "Letter U",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-U / TWO-FINGERS-TOGETHER",
+    svgType: "alpha_u",
+    handshape: "Index and middle fingers held straight upright pressed tightly together side-by-side",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Two upright fingers held tightly together with no gap, creating the parallel sides of letter 'U'.",
+    steps: [
+      "Extend your index and middle fingers straight up toward the ceiling.",
+      "Press them tightly together side by side with no space between them.",
+      "Fold your thumb across your curled ring and pinky fingers.",
+      "Palm faces forward."
+    ],
+    usageTip: "Contrast with letter V: U has fingers closed together, V has fingers spread apart."
+  },
+  {
+    id: "sign_letter_v",
+    term: "Letter V",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-V / V-SHAPE-SPREAD",
+    svgType: "alpha_v",
+    handshape: "Index and middle fingers held straight upright and spread apart in a 'V' peace shape",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Classic peace sign handshape: index and middle fingers spread apart forming a clear 'V'.",
+    steps: [
+      "Extend your index and middle fingers straight up.",
+      "Spread them wide apart to form a distinct 'V' angle.",
+      "Keep ring and pinky curled with thumb tucked across them.",
+      "Palm faces forward."
+    ],
+    usageTip: "Identical handshape to Number 2; pictorial representation of letter V."
+  },
+  {
+    id: "sign_letter_w",
+    term: "Letter W",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-W / THREE-FINGER-W",
+    svgType: "alpha_w",
+    handshape: "Index, middle, and ring fingers held straight upright and spread apart in a 'W'",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Three middle fingers extended and spread like the three points of letter 'W', thumb holding down the pinky.",
+    steps: [
+      "Extend your index, middle, and ring fingers straight up.",
+      "Spread the three fingers evenly apart.",
+      "Hold your pinky down with your thumb.",
+      "Palm faces forward."
+    ],
+    usageTip: "Also the standard handshape for Number 6 in counting, and Water when tapped at chin."
+  },
+  {
+    id: "sign_letter_x",
+    term: "Letter X",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-X / BENT-INDEX-HOOK",
+    svgType: "alpha_x",
+    handshape: "Closed fist with index finger curved into a bent hook",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Closed fist with the index finger raised and bent into a prominent hook (like Captain Hook).",
+    steps: [
+      "Make a fist with your palm facing forward.",
+      "Raise your index finger and bend its first two joints into a hook.",
+      "Thumb rests along the side of the curled middle finger."
+    ],
+    usageTip: "Looks like a pirate hook or question mark."
+  },
+  {
+    id: "sign_letter_y",
+    term: "Letter Y",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-Y / THUMB-PINKY-SPREAD",
+    svgType: "alpha_y",
+    handshape: "Fist with thumb and pinky finger extended wide apart (hang loose shape)",
+    dominantHand: "Dominant hand",
+    movement: "Held static at shoulder height",
+    location: "Beside shoulder",
+    description: "Thumb and pinky extend out from the fist, mimicking the diverging upper branches and lower tail of 'Y'.",
+    steps: [
+      "Make a fist.",
+      "Extend your thumb out to the side.",
+      "Extend your pinky out to the opposite side.",
+      "Keep middle three fingers curled flat against your palm."
+    ],
+    usageTip: "Universal 'shaka' or 'hang loose' handshape."
+  },
+  {
+    id: "sign_letter_z",
+    term: "Letter Z",
+    category: "Alphabet Foundation",
+    gloss: "LETTER-Z / AIR-TRACE-Z",
+    svgType: "alpha_z",
+    handshape: "Index finger pointing forward, tracing a 'Z' in the air",
+    dominantHand: "Dominant hand",
+    movement: "Draws horizontal right, diagonal down-left, horizontal right in the air",
+    location: "In front of chest",
+    description: "Index finger acts as a pen tracing the 3 distinct strokes of letter Z in the air (across, diagonal, across).",
+    steps: [
+      "Point your index finger straight forward with remaining fingers closed into a fist.",
+      "Draw a horizontal line from left to right.",
+      "Angle diagonally down and to the left.",
+      "Draw another horizontal line to the right to complete 'Z'."
+    ],
+    usageTip: "Final letter of the manual alphabet; dynamic motion sign like J."
   }
 ];
 

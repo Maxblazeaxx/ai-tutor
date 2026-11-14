@@ -50,7 +50,7 @@ export default function SignLanguageStudio({ isHighContrast = false }) {
                 Deaf Inclusive Education Hub
               </span>
               <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-amber-400/20 text-amber-200 border border-amber-400/40">
-                75 Predefined Fixed Handshape Standards
+                {PREDEFINED_SIGNS.length} Predefined Fixed Handshape Standards (A–Z Complete)
               </span>
               <span className="text-[11px] text-amber-300/80 bg-amber-950/40 px-2 py-0.5 rounded">
                 placeholder glosses, not verified ISL/ASL
@@ -61,7 +61,7 @@ export default function SignLanguageStudio({ isHighContrast = false }) {
               🤟 Predefined Sign Language & Gesture Dataset Studio
             </h2>
             <p className="text-sm text-slate-300 max-w-2xl leading-relaxed">
-              Explore 75 standardized, fixed sign handshapes (Thumbs Up for Good, Thumbs Down for Bad, Please, Thank You, Everyday Needs, Numbers & Letters) with step-by-step formation guides, anatomical handshapes, and live camera gesture practice.
+              Explore {PREDEFINED_SIGNS.length} standardized, fixed sign handshapes (Complete 26-Letter A–Z Manual Alphabet, Thumbs Up for Good, Thumbs Down for Bad, Please, Thank You, STEM Concepts & Numbers 1–10) with step-by-step formation guides, anatomical handshapes, and live camera gesture practice.
             </p>
           </div>
 

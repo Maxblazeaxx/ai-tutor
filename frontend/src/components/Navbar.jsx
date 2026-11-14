@@ -55,7 +55,7 @@ export default function Navbar({
               title="Open 75 Predefined Fixed Sign Language Handshapes Studio"
             >
               <span>🤟</span>
-              <span className="hidden sm:inline font-bold">Sign Shapes (75)</span>
+              <span className="hidden sm:inline font-bold">Sign Shapes (96)</span>
             </button>
           )}
 

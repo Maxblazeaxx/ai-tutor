@@ -286,7 +286,7 @@ export default function App() {
                 : "text-indigo-700 bg-indigo-50 hover:bg-indigo-100 font-bold"
             }`}
           >
-            🤟 Predefined Sign Shapes (75)
+            🤟 Predefined Sign Shapes (96)
           </button>
           <button
             onClick={() => {

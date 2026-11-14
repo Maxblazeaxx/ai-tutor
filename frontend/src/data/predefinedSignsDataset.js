@@ -145,7 +145,7 @@ export const PREDEFINED_SIGNS = [
     term: "Goodbye",
     category: "Social & Emotions",
     gloss: "GOODBYE / WAVE",
-    svgType: "open_wave",
+    svgType: "wave_goodbye",
     handshape: "Open 5-handshape",
     dominantHand: "Dominant hand",
     movement: "Fingers fold toward palm and open repeatedly (open-close wave)",

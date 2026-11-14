@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Hand, Eye, Info, Sparkles, BookOpen } from "lucide-react";
 import SignGesturePractice from "./SignGesturePractice";
 import SignIllustrationSVG from "./SignIllustrationSVG";
-
+import { PREDEFINED_SIGNS } from "../data/predefinedSignsDataset";
 
 export default function SignSupportViewer({ signItems, concept }) {
   const [selectedTermIdx, setSelectedTermIdx] = useState(0);
@@ -22,21 +22,50 @@ export default function SignSupportViewer({ signItems, concept }) {
 
   // Render SVG Hand Gesture Illustrations
   const renderHandIllustration = (term) => {
-    const t = (term || "").toLowerCase();
+    const rawTerm = (term || "").trim();
+    const t = rawTerm.toLowerCase();
+
+    // Check predefined signs first
+    const matched = PREDEFINED_SIGNS.find(
+      (s) =>
+        s.term.toLowerCase() === t ||
+        s.term.toLowerCase().includes(t) ||
+        t.includes(s.term.toLowerCase())
+    );
+    if (matched && matched.svgType) {
+      return (
+        <SignIllustrationSVG
+          svgType={matched.svgType}
+          term={matched.term}
+          className="w-32 h-32 mx-auto"
+        />
+      );
+    }
+
     let svgType = "default";
     if (t.includes("water") || t.includes("liquid")) svgType = "w_chin";
+    else if (t.includes("solid") || t.includes("hard")) svgType = "solid_tap";
+    else if (t.includes("gas") || t.includes("steam") || t.includes("air")) svgType = "rising_steam";
+    else if (t.includes("ice") || t.includes("cold") || t.includes("freeze")) svgType = "shiver_fists";
+    else if (t.includes("hot") || t.includes("heat") || t.includes("fire")) svgType = "claw_from_mouth";
+    else if (t.includes("sun") || t.includes("light")) svgType = "sun_circle_rays";
+    else if (t.includes("plant") || t.includes("grow") || t.includes("tree")) svgType = "tree_branch";
+    else if (t.includes("flower") || t.includes("bloom")) svgType = "flower_bloom";
     else if (t.includes("good")) svgType = "thumbs_up";
     else if (t.includes("bad")) svgType = "thumbs_down";
     else if (t.includes("please")) svgType = "palm_circle";
     else if (t.includes("thank")) svgType = "chin_forward";
     else if (t.includes("stop")) svgType = "palm_chop";
     else if (t.includes("help")) svgType = "palm_lift";
-    else if (t.includes("sun") || t.includes("light")) svgType = "w_chin";
+    else if (t.includes("sleep")) svgType = "face_close";
+    else if (t.includes("eat") || t.includes("food")) svgType = "mouth_tap";
+    else if (t.includes("drink")) svgType = "cup_tilt";
+    else if (t.includes("listen") || t.includes("hear")) svgType = "cup_ear";
 
     return (
       <SignIllustrationSVG
         svgType={svgType}
-        term={term}
+        term={rawTerm}
         className="w-32 h-32 mx-auto"
       />
     );

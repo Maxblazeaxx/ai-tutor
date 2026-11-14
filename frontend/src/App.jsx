@@ -8,7 +8,9 @@ import AdaptationBanner from "./components/AdaptationBanner";
 import StudentAnalyticsDashboard from "./components/StudentAnalyticsDashboard";
 import ProgressTracker from "./components/ProgressTracker";
 import DynamicSVGPlayer from "./components/DynamicSVGPlayer";
+import SignLanguageStudio from "./components/SignLanguageStudio";
 import TeacherUploadModal from "./components/TeacherUploadModal";
+
 import CustomLearnerModal from "./components/CustomLearnerModal";
 import VivaTourModal from "./components/VivaTourModal";
 import InteractiveChatPanel from "./components/InteractiveChatPanel";
@@ -31,9 +33,10 @@ export default function App() {
   const [learners, setLearners] = useState([]);
   const [activeLearnerId, setActiveLearnerId] = useState("down_syndrome_demo_learner");
   const [topics, setTopics] = useState([]);
-  const [currentView, setCurrentView] = useState("lesson"); // "lesson", "ai_animation", "progress", or "analytics"
+  const [currentView, setCurrentView] = useState("lesson"); // "lesson", "ai_animation", "signs", "progress", or "analytics"
 
   // AI Animation Studio State
+
   const [aiAnimLesson, setAiAnimLesson] = useState(null);
   const [isLoadingAIAnim, setIsLoadingAIAnim] = useState(false);
   const [aiAnimQuery, setAiAnimQuery] = useState("How Airplanes Fly");
@@ -258,7 +261,7 @@ export default function App() {
           onOpenCustomModal={() => setShowCustomLearnerModal(true)}
         />
 
-        {/* View Switcher: 4 Tabs */}
+        {/* View Switcher: 5 Tabs */}
         <div className="flex flex-wrap items-center gap-2 mb-6 border-b border-slate-200 pb-2">
           <button
             onClick={() => setCurrentView("lesson")}
@@ -269,6 +272,18 @@ export default function App() {
             }`}
           >
             📖 Adaptive Lesson Studio
+          </button>
+          <button
+            onClick={() => {
+              setCurrentView("signs");
+            }}
+            className={`px-4 py-2 rounded-xl font-bold text-sm transition flex items-center gap-1.5 ${
+              currentView === "signs"
+                ? "bg-indigo-700 text-white shadow-sm ring-2 ring-indigo-300"
+                : "text-indigo-700 bg-indigo-50 hover:bg-indigo-100 font-bold"
+            }`}
+          >
+            🤟 Predefined Sign Shapes (75)
           </button>
           <button
             onClick={() => {
@@ -304,6 +319,11 @@ export default function App() {
             📊 Adaptation History
           </button>
         </div>
+
+        {currentView === "signs" && (
+          <SignLanguageStudio isHighContrast={highContrast} />
+        )}
+
 
         {currentView === "analytics" && (
           <StudentAnalyticsDashboard

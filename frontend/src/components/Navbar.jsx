@@ -8,8 +8,11 @@ export default function Navbar({
   highContrast,
   onToggleContrast,
   onOpenUploadModal,
-  onOpenVivaTour
+  onOpenVivaTour,
+  currentView,
+  onSelectView
 }) {
+
   const [showSystemModal, setShowSystemModal] = useState(false);
 
   return (
@@ -40,7 +43,24 @@ export default function Navbar({
             </div>
           )}
 
+          {/* Direct Sign Shapes Button */}
+          {onSelectView && (
+            <button
+              onClick={() => onSelectView("signs")}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-black transition shadow-sm ${
+                currentView === "signs"
+                  ? "bg-indigo-600 text-white ring-2 ring-indigo-300"
+                  : "bg-indigo-50 hover:bg-indigo-100 text-indigo-800 border border-indigo-200"
+              }`}
+              title="Open 75 Predefined Fixed Sign Language Handshapes Studio"
+            >
+              <span>🤟</span>
+              <span className="hidden sm:inline font-bold">Sign Shapes (75)</span>
+            </button>
+          )}
+
           {/* High Contrast Toggle for Accessibility */}
+
           <button
             onClick={onToggleContrast}
             className={`p-2 rounded-xl border transition ${

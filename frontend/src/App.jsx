@@ -250,7 +250,10 @@ export default function App() {
         onToggleContrast={() => setHighContrast(!highContrast)}
         onOpenUploadModal={() => setShowUploadModal(true)}
         onOpenVivaTour={() => setShowVivaTour(true)}
+        currentView={currentView}
+        onSelectView={(v) => setCurrentView(v)}
       />
+
 
       <main className="max-w-6xl mx-auto px-4 py-6">
         {/* Learner Profile Selector */}
